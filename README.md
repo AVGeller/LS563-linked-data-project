@@ -1,6 +1,6 @@
 # Indigenous Knowledge Books — Linked Data Dataset
 
-**Author:** AVGeller
+**Author:** avgeller
 **License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 **Course:** Linked Data (first course project)
 **Version:** 1.0 — April 2026
@@ -27,9 +27,9 @@
 
 This dataset contains 50 linked data records of books focused on Indigenous Knowledge, inspired by the Kaggle dataset by ziya07 (2025), *Indigenous knowledge systems*. It was created to make works by predominantly Indigenous authors more accessible through culturally relevant metadata. The dataset also includes a sample of five books by non-Indigenous authors whose work meaningfully engages with Indigenous perspectives, recognizing the role of cross-cultural scholarship.
 
-The dataset draws on the **X̱wi7x̱wa Library Classification System** (Indigenous Knowledge Organization, University of British Columbia), using Indigenous-centered subject headings and classification codes in place of Eurocentric frameworks such as the Dewey Decimal System. It distinguishes Indigenous authors' backgrounds from the ethnic or cultural backgrounds of non-Indigenous authors. While this information may need refinement, it represents the dataset owner's best effort for a first Linked Data course project.
+The dataset draws on the **X̱wi7x̱wa Library Classification System** (Indigenous Knowledge Organization, University of British Columbia), using Indigenous-centered subject headings and classification codes in place of Eurocentric frameworks. The dataset distinguishes Indigenous authors' backgrounds from the backgrounds of non-Indigenous authors. While this information may need refinement, it represents the dataset owner's best effort for a first Linked Data course project.
 
-Built to support intellectual property rights, provenance, and Traditional Knowledge (TK) through linked data ontologies, this dataset is intended as a starting point for ongoing iteration and community contribution — including additional authors, contributors, titles, and (where available) author-identified background information.
+The intent is that this serves as another tool to support intellectual property rights and provenance for Traditional Knowledge (TK) through linked data ontologies — a starting point for ongoing iteration and community contribution, including additional authors, contributors, titles, and (where available) author-identified background information.
 
 ---
 
@@ -244,3 +244,4 @@ This project was developed as part of LS 563 Linked Data at the University of Al
 Claude AI (Anthropic) was used as an additional technical guide at points where the Turtle file was not functioning as expected — particularly when added columns introduced errors that needed to be worked through. Claude helped troubleshoot specific problems including the RDF transformation, the linked data model diagram, and getting the Turtle file to render correctly on GitHub.
 
 The ideas, research, and conceptual direction are the author's own. The sources consulted, the frameworks chosen, and the thinking behind the metadata decisions all reflect the author's work and learning. Where Claude assisted, it was in working through technical problems and shaping the formal written expression of those ideas — not in generating the intellectual content itself.
+
