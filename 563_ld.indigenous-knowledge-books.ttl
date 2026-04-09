@@ -1,0 +1,1102 @@
+@prefix :       <https://example.com/> .
+@prefix bf:     <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc:     <http://purl.org/dc/elements/1.1/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix vcard:  <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:   <https://viaf.org/en/viaf/> .
+@prefix wd:     <https://www.wikidata.org/wiki/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+:Book013  rdf:type            schema:Book;
+        bf:classification     "CU-CX; W; Y; T; P; PE";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781555919047"
+                              ];
+        dc:subject            "History - North America; Arts; Literature; Worldview; Knowledge Keeping; Elders"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "18"@en , "Standing Rock Sioux Tribe"@en;
+                                schema:sameAs       wd:Q17280792;
+                                foaf:name           "Deloria, Jr., Vine"
+                              ];
+        schema:datePublished  "2003"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "God is Red: A Native View of Religion";
+                                bf:title  wd:Q5575889
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Fulcrum Publishing";
+                                schema:sameAs  wd:Q131149934
+                              ] .
+
+:Book034  rdf:type            schema:Book;
+        bf:classification     "W; Y; T; P; PW";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781844674183"
+                              ];
+        bf:instance           [ rdf:type     bf:Instance;
+                                schema:name  "I, Rigoberta Menchu: An Indian Woman in Guatemala"
+                              ];
+        dc:contributor        [ rdf:type       foaf:Person;
+                                schema:sameAs  wd:Q2007964;
+                                foaf:name      "Burgos-Debray, Elisabeth"
+                              ];
+        dc:contributor        [ rdf:type   foaf:Person;
+                                foaf:name  "Wright, Ann "
+                              ];
+        dc:subject            "Arts; Literature; Worldview; Knowledge Keeping; Women"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "61"@en , "Mayan k’iche'"@en;
+                                schema:sameAs       wd:Q1137419;
+                                foaf:name           "Menchu Tum, Rigoberta "
+                              ];
+        schema:datePublished  "2024"^^xsd:gYear;
+        schema:inLanguage     "es";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Me llamo Rigoberta Menchú y así me nació la conciencia";
+                                bf:title  wd:Q17622092
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Verso Books";
+                                schema:sameAs  wd:Q4010248
+                              ] .
+
+:Book005  rdf:type            schema:Book;
+        bf:classification     "SN; CU-CX";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9780760393253"
+                              ];
+        dc:subject            "Ethnobotany; History - North America"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "7"@en , "Refugee of the Red River Métis Nation"@en;
+                                foaf:name           "Bird, LoriAnn"
+                              ];
+        schema:datePublished  "2025"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Revered Roots: Ancestral Teachings and Wisdom of Wild, Edible, and Medicinal Plants"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Cool Springs Press";
+                                schema:sameAs  viaf:150324272
+                              ] .
+
+:Book026  rdf:type            schema:Book;
+        bf:classification     "Y; W; CU-CX";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781773104614"
+                              ];
+        dc:subject            "Literature; Arts; History - North America"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "42"@en , "Anishinaabe"@en;
+                                schema:sameAs       wd:Q1956640;
+                                foaf:name           "Krawec, Patty"
+                              ];
+        schema:datePublished  "2025"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Bad Indians Book Club: Reading at the Edge of a Thousand Worlds"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Augsburg Fortress Publishers";
+                                schema:sameAs  wd:Q112874028
+                              ] .
+
+:Book047  rdf:type            schema:Book;
+        bf:classification     "P; N; E; T";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781571313560"
+                              ];
+        dc:subject            "Knowledge Keeping; Environment; Science; Worldview"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "84"@en , "Citizen Potawatomi Nation"@en;
+                                schema:sameAs       wd:Q5122575;
+                                foaf:name           "Wall Kimmerer, Robin "
+                              ];
+        schema:datePublished  "2015"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants";
+                                bf:title  viaf:6419162906479978110003
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Milkweed Editions";
+                                schema:sameAs  wd:Q5675865
+                              ] .
+
+:Book018  rdf:type            schema:Book;
+        bf:classification     "CA-CG; S; F-K; M";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781772031645"
+                              ];
+        dc:subject            "History - Canada; Health; Development, Law, Governance; Rights & Title"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "Canadians"@en , "28"@en;
+                                schema:sameAs       wd:Q1196645;
+                                foaf:name           "Geddes, Gary"
+                              ];
+        schema:datePublished  "2017"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Medicine Unbundled a Journey Through the Minefields of Indigenous Health Care"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Canadian Heritage Publications";
+                                schema:sameAs  viaf:155858177
+                              ] .
+
+:Book039  rdf:type            schema:Book;
+        bf:classification     "T";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9780889774186"
+                              ];
+        dc:subject            "Worldview"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "68"@en , "Muscowpetung First Nation"@en;
+                                schema:sameAs       wd:Q46578032;
+                                foaf:name           "Stonechild, Blair"
+                              ];
+        schema:datePublished  "2016"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "The Knowledge Seeker: Embracing Indigenous Spirituality";
+                                bf:title  wd:Q113264167
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "University of Regina Press";
+                                schema:sameAs  wd:Q116788498
+                              ] .
+
+:Book010  rdf:type            schema:Book;
+        bf:classification     "S; CU-CX";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9780971990401"
+                              ];
+        dc:subject            "Health; History - North America"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "14"@en , "Mohican"@en;
+                                schema:sameAs       wd:Q776280;
+                                foaf:name           "Coyhis, Don"
+                              ];
+        schema:datePublished  "2006"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "The Red Road to Wellbriety: In the Native American Way"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "White Bison, Inc.";
+                                schema:sameAs  viaf:124502071
+                              ] .
+
+:Book031  rdf:type            schema:Book;
+        bf:classification     "CA-CX; S";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9780063119208"
+                              ];
+        dc:subject            "History - North America; Health"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "51"@en , "Turtle Mountain Band of Chippewa Indians"@en;
+                                schema:sameAs       wd:Q7856433;
+                                foaf:name           "Luger, Chelsey"
+                              ];
+        schema:datePublished  "2022"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "The Seven Circles: Indigenous Teachings for Living Well"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "HarperCollins";
+                                schema:sameAs  wd:Q95149
+                              ] .
+
+:Book002  rdf:type            schema:Book;
+        bf:classification     "S; F-K; M; CA-CG ";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781773383309"
+                              ];
+        dc:subject            "Health; Development, Law, Governance; Rights & Title; History - Canada "@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "2"@en , "Mi'kmaq"@en;
+                                schema:sameAs       wd:Q495751;
+                                foaf:name           "Baskin, Cyndy"
+                              ];
+        schema:datePublished  "2016"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Strong helpers' teachings: The value of Indigenous knowledges in the helping professions"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Canadian Scholars' Press.";
+                                schema:sameAs  viaf:205149719101211130005
+                              ] .
+
+:Book023  rdf:type            schema:Book;
+        bf:classification     "P";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9798889840978"
+                              ];
+        dc:subject            "Knowledge Keeping; Indigenous Central American; Zapotec"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "37"@en , "Zapotec"@en;
+                                schema:sameAs       wd:Q147401;
+                                foaf:name           "Hernandez, Jessica, 1990-"
+                              ];
+        schema:datePublished  "2025"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Growing Papaya Trees: Nurturing Indigenous Roots During Climate Displacement"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Michigan State University Press";
+                                schema:sameAs  wd:Q6837737
+                              ] .
+
+:Book044  rdf:type            schema:Book;
+        bf:classification     "X; W; Y; T; P";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9789681676711"
+                              ];
+        bf:instance           [ rdf:type     bf:Instance;
+                                schema:name  "La Muerte de Pies Ligeros"
+                              ];
+        dc:subject            "Languages; Arts; Literature; Worldview; Knowledge Keeping"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "77"@en , "Zapotec"@en;
+                                schema:sameAs       wd:Q147401;
+                                foaf:name           "Toledo, Natalia "
+                              ];
+        schema:datePublished  "2006"^^xsd:gYear;
+        schema:inLanguage     "zap" , "es";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Guendaguti nee Sisi";
+                                bf:title  viaf:5746159337542713150005
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Fondo de Cultura Económica";
+                                schema:sameAs  wd:Q3031850
+                              ] .
+
+:Book015  rdf:type            schema:Book;
+        bf:classification     "W; Y; X";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9789998966192"
+                              ];
+        bf:instance           [ rdf:type     bf:Instance;
+                                schema:name  "Memorias poeticas"
+                              ];
+        dc:subject            "Literature; Arts; Languages; Guaraní peoples; Paraguay"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "21"@en , "Ava guaraníes"@en;
+                                schema:sameAs       wd:Q1074714;
+                                foaf:name           "Duarte Portillo, Alba Eiragi "
+                              ];
+        schema:datePublished  "2024"^^xsd:gYear;
+        schema:inLanguage     "nhd" , "es";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Mandu'a ne'e poty "
+                              ];
+        schema:publisher      [ rdf:type     schema:Organization;
+                                schema:name  "Arandurã Editoria"
+                              ] .
+
+:Book036  rdf:type            schema:Book;
+        bf:classification     "DC; CU-CX; T; P; PW";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781960769008"
+                              ];
+        dc:subject            "Inuit; History - North America; Arts; Literature; Worldview; Knowledge Keeping; Women"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "64"@en , "Iñupiaq"@en;
+                                schema:sameAs       wd:Q1417088;
+                                foaf:name           "Naviyuk Kane, Joan  "
+                              ];
+        schema:datePublished  "2023"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "ex machina"
+                              ];
+        schema:publisher      [ rdf:type     schema:Organization;
+                                schema:name  "Staircase Books"
+                              ] .
+
+:Book007  rdf:type            schema:Book;
+        bf:classification     "P; N; CU-CX";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781611863307"
+                              ];
+        dc:subject            "Knowledge Keeping; Environment; History - North America"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "10"@en , "Cherokee Nation"@en;
+                                schema:sameAs       wd:Q14708404;
+                                foaf:name           "Burkhart, Brian"
+                              ];
+        schema:datePublished  "2019"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Indigenizing Philosophy through the Land: A Trickster Methodology for Decolonizing Environmental Ethics and Indigenous Futures"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Michigan State University Press";
+                                schema:sameAs  wd:Q6837737
+                              ] .
+
+:Book028  rdf:type            schema:Book;
+        bf:classification     "N; T";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781517910976"
+                              ];
+        dc:subject            "Environment; Worldview"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "Finnish Americans"@en , "48"@en;
+                                schema:sameAs       wd:Q3072663;
+                                foaf:name           "Lenor Hanson, Ranae"
+                              ];
+        schema:datePublished  "2021"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Watershed: Attending to Body and Earth in Distress"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "University of Minnesota Press";
+                                schema:sameAs  wd:Q7895804
+                              ] .
+
+:Book049  rdf:type            schema:Book;
+        bf:classification     "P";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9798889843214"
+                              ];
+        dc:subject            "Indigenous Hawaiian; Knowledge Keeping"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "86"@en , "Native Hawaiians"@en;
+                                schema:sameAs       wd:Q1283606;
+                                foaf:name           "Wong, Norma"
+                              ];
+        schema:datePublished  "2026"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Who We Are Becoming Matters: The Courage, Wisdom, and Aloha We Need in a Timeplace of Collapse"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "North Atlantic Books";
+                                schema:sameAs  wd:Q7053987
+                              ] .
+
+:Book020  rdf:type            schema:Book;
+        bf:classification     "X; T; P";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9686951067"
+                              ];
+        dc:subject            "Languages (Mazatec); Worldview; Knowledge Keeping (Mazatec)"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "31"@en , "Mazatec people"@en;
+                                schema:sameAs       wd:Q1262708;
+                                foaf:name           "Gregorio Regino, Juan"
+                              ];
+        schema:datePublished  "1993"^^xsd:gYear;
+        schema:inLanguage     "es";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Alfabeto mazateco: Variantes dialectales de San Pedro Ixcatlan, San Miguel Soyaltepec, Jalapa de Diaz y San Jose Independencia"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Instituto Oaxaqueño de las Culturas";
+                                schema:sameAs  viaf:131098524
+                              ] .
+
+:Book041  rdf:type            schema:Book;
+        bf:classification     "PW; M; F-K; CU-CX";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9780774819350"
+                              ];
+        dc:subject            "Women; Rights & Title; Development, Law, Goverance; History - North America"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "70"@en , "Oneida Nation of the Thames"@en;
+                                schema:sameAs       wd:Q7093671;
+                                foaf:name           "Sunseri, Lina"
+                              ];
+        schema:datePublished  "2010"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Being Again of One Mind Oneida Women and the Struggle for Decolonization"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "University of British Columbia Press";
+                                schema:sameAs  wd:Q7895143
+                              ] .
+
+:Book012  rdf:type            schema:Book;
+        bf:classification     "CU-CX; CA-CG; F-K; M";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9780889776227"
+                              ];
+        dc:subject            "History - North America; History - Canada; Health; Development, Law, Governance; Rights & Title"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "Canadians"@en , "17"@en;
+                                schema:sameAs       wd:Q1196645;
+                                foaf:name           "Daschuk, James W."
+                              ];
+        schema:datePublished  "2019"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Clearing the Plains: Disease, Politics of Starvation, and the Loss of Indigenous Life"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "University of Regina Press";
+                                schema:sameAs  wd:Q116788498
+                              ] .
+
+:Book033  rdf:type            schema:Book;
+        bf:classification     "CA-CG; T; F-K; M; PW";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9780312206628"
+                              ];
+        dc:subject            "History - Canada; Worldview; Development, Law, Governance; Rights & Title; Women"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "57"@en , "Cherokee Nation"@en;
+                                schema:sameAs       wd:Q14708404;
+                                foaf:name           "Mankiller, Wilma"
+                              ];
+        schema:datePublished  "1993"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Mankiller: A Chief and Her People: An Autobiography by the Principal Chief of the Cherokee Nation "
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "St. Martin's Griffin";
+                                schema:sameAs  wd:Q105745727
+                              ] .
+
+:Book004  rdf:type            schema:Book;
+        bf:classification     "M; F-K; CA-CG";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781517903879"
+                              ];
+        dc:subject            "Rights & Title; Development, Law, Governance; History - Canada;"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "5"@en , "Michi Saagiig Nishnaabeg"@en;
+                                schema:sameAs       wd:Q950097;
+                                foaf:name           "Betasamosake Simpson, Leanne"
+                              ];
+        schema:datePublished  "2020"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "As We Have Always Done Indigenous Freedom through Radical Resistance";
+                                bf:title  wd:Q96634626
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "University of Minnesota Press";
+                                schema:sameAs  wd:Q7895804
+                              ] .
+
+:Book025  rdf:type            schema:Book;
+        bf:classification     "SN; CU-CX";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781577152941"
+                              ];
+        dc:subject            "Ethnobotany; History - North America"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "41"@en , "Skwxwú7mesh"@en;
+                                schema:sameAs       wd:Q7581946;
+                                foaf:name           "Leigh Joseph (Styawat)"
+                              ];
+        schema:datePublished  "2023"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Held by the Land: a Guide to Indigenous Plants for Wellness"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Quarto Group";
+                                schema:sameAs  wd:Q7269371
+                              ] .
+
+:Book046  rdf:type            schema:Book;
+        bf:classification     "W; S";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781771622295"
+                              ];
+        dc:subject            "Arts, Music, Dance; Health; Ojibwe peoples"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "83"@en , "Wabaseemoong Independent Nations"@en;
+                                schema:sameAs       wd:Q7958622;
+                                foaf:name           "Wagamese, Richard"
+                              ];
+        schema:datePublished  "2019"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "One Drum: Stories and Ceremonies for a Planet"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Douglas & McIntyre";
+                                schema:sameAs  wd:Q5301168
+                              ] .
+
+:Book017  rdf:type            schema:Book;
+        bf:classification     "S; T";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781401963507"
+                              ];
+        dc:subject            "Health; Worldview"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "26"@en , "Neyaashiinigmiig"@en;
+                                foaf:name           "Frost, Asha"
+                              ];
+        schema:datePublished  "2022"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "You Are the Medicine: 13 Moons of Indigenous Wisdom, Ancestral Connection and Animal Spirit Guidance"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Hay House";
+                                schema:sameAs  wd:Q3783780
+                              ] .
+
+:Book038  rdf:type            schema:Book;
+        bf:classification     "CA-CG, S";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781623173371"
+                              ];
+        dc:subject            "History - Canada; Health"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "67"@en , "Deninu Kųę́ First Nation"@en;
+                                schema:sameAs       wd:Q85756361;
+                                foaf:name           "Redvers, Nicole"
+                              ];
+        schema:datePublished  "2019"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "The Science of the Sacred: Bridging Global Indigenous Medicine Systems and Modern Scientific Principles"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "North Atlantic Books";
+                                schema:sameAs  wd:Q7053987
+                              ] .
+
+:Book009  rdf:type            schema:Book;
+        bf:classification     "W; Y; T; PW";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9789560005649"
+                              ];
+        dc:subject            "Arts; Literature; Worldview; Women"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "13"@en , "Mapuche"@en;
+                                schema:sameAs       wd:Q178484;
+                                foaf:name           "Conuecar, Ivonne "
+                              ];
+        schema:datePublished  "2008"^^xsd:gYear;
+        schema:inLanguage     "es";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Patriagonia: Catabatica, Adiabatica, Anabatica "
+                              ];
+        schema:publisher      [ rdf:type     schema:Organization;
+                                schema:name  "Jabali Editoras"
+                              ] .
+
+:Book030  rdf:type            schema:Book;
+        bf:classification     "S; F-K; M";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781773633848"
+                              ];
+        dc:subject            "Health; Development, Law, Governance; Rights & Title"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "50"@en , "Rainy River First Nations"@en;
+                                schema:sameAs       wd:Q7285021;
+                                foaf:name           "Linklater, Renee"
+                              ];
+        schema:datePublished  "2014"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Decolonizing Trauma Work: Indigenous Stories and Strategies"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Fernwood Publishing";
+                                schema:sameAs  wd:Q5445161
+                              ] .
+
+:Book001  rdf:type            schema:Book;
+        bf:classification     "CA-CG; S; F-K; M";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781552669563"
+                              ];
+        dc:subject            "History - Canada; Health; Development, Law, Governance; Rights & Title"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "0"@en , "Fisher River Cree Nation"@en;
+                                schema:sameAs       wd:Q5454839;
+                                foaf:name           "Ansloos, Jeffrey Paul"
+                              ];
+        schema:datePublished  "2017"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "The Medicine of Peace Indigenous Youth Decolonizing Healing and Resisting Violence"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Fernwood Publishing";
+                                schema:sameAs  wd:Q5445161
+                              ] .
+
+:Book022  rdf:type            schema:Book;
+        bf:classification     "W; Y; T; P; PW";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781324022015"
+                              ];
+        dc:subject            "Arts; Literature; Worldview; Knowledge Keeping; Women"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "34"@en , "Mvskoke Nation"@en;
+                                schema:sameAs       wd:Q6940348;
+                                foaf:name           "Harjo, Joy "
+                              ];
+        schema:datePublished  "2021"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Poet Warrior"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "W. W. Norton & Company American publishing company";
+                                schema:sameAs  wd:Q1282208
+                              ] .
+
+:Book043  rdf:type            schema:Book;
+        bf:classification     "W; T; P; PW";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781933527048"
+                              ];
+        dc:subject            "Arts;  Worldview; Knowledge Keeping; Women"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "76"@en , "Lipan Apache Band of Texas"@en;
+                                schema:sameAs       wd:Q123907336;
+                                foaf:name           "Tamez, Margo"
+                              ];
+        schema:datePublished  "2021"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Father / Genocide"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Turtle Point Press";
+                                schema:sameAs  wd:Q28455384
+                              ] .
+
+:Book014  rdf:type            schema:Book;
+        bf:classification     "P; T; W; Y";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781556593833"
+                              ];
+        dc:subject            "Knowledge Keeping; Worldview; Arts, Literature"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "19"@en , "Pipa Aha Macav"@en;
+                                schema:sameAs       wd:Q57061684;
+                                foaf:name           "Diaz, Natalie"
+                              ];
+        schema:datePublished  "2012"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "When My Brother Was an Aztec"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Copper Canyon Press";
+                                schema:sameAs  wd:Q5168700
+                              ] .
+
+:Book035  rdf:type            schema:Book;
+        bf:classification     "S; CA-CG";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781773052977"
+                              ];
+        dc:subject            "Health; Indigenous Contemporary Issues; History - Canada; Teen Books;  Depression and Anxiety"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "63"@en , "Nehiyaw (Cree) Nation"@en;
+                                schema:sameAs       wd:Q1704409;
+                                foaf:name           "Methot, Suzanne"
+                              ];
+        schema:datePublished  "2019"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Legacy: Trauma, Story, and Indigenous Healing "
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "ECW Press";
+                                schema:sameAs  wd:Q5322780
+                              ] .
+
+:Book006  rdf:type            schema:Book;
+        bf:classification     "W; Y; T; CU-CX";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9780593320785"
+                              ];
+        dc:subject            "Arts; Worldview; Knowledge Keeping; History - North America; "@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "8"@en , "Lil'wat First Nation"@en;
+                                schema:sameAs       wd:Q6547392;
+                                foaf:name           "Brave NoiseCat, Julian "
+                              ];
+        schema:datePublished  "2025"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "We Survived the Night"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Knopf";
+                                schema:sameAs  wd:Q55510955
+                              ] .
+
+:Book027  rdf:type            schema:Book;
+        bf:classification     "T; P; Y";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9788554514204"
+                              ];
+        bf:instance           [ rdf:type       bf:Instance;
+                                schema:name    "Ideas to postpone the end of the world";
+                                schema:sameAs  wd:Q117382781
+                              ];
+        dc:contributor        [ rdf:type   foaf:Person;
+                                foaf:name  "Doyle, Anthony "
+                              ];
+        dc:subject            "Worldview; Knowledge Keeping; Literature"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "46"@en , "Krenak"@en;
+                                schema:sameAs       wd:Q3816974;
+                                foaf:name           "Krenak, Ailton "
+                              ];
+        schema:datePublished  "2019"^^xsd:gYear;
+        schema:inLanguage     "en" , "pt";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Ideias para adiar o fim do mundo ";
+                                bf:title  viaf:8906159764120108170001
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Companhia das Letras ";
+                                schema:sameAs  wd:Q2990311
+                              ] .
+
+:Book048  rdf:type            schema:Book;
+        bf:classification     "N; DC; PW; CA-CG ";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781517904975"
+                              ];
+        dc:subject            "Environment; Inuit women; History - Canada"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "85"@en , "Inuit"@en;
+                                schema:sameAs       wd:Q16157735;
+                                foaf:name           "Watt-Cloutier, Sheila "
+                              ];
+        schema:datePublished  "2018"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "The Right to Be Cold: One Woman's Fight to Protect the Arctic and Save the Planet from Climate Change";
+                                bf:title  viaf:1085159477866227990007
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "University of Minnesota Press";
+                                schema:sameAs  wd:Q7895804
+                              ] .
+
+:Book019  rdf:type            schema:Book;
+        bf:classification     "W; T; P; E";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9788543810218"
+                              ];
+        dc:subject            "Arts; Worldview; Knowledge Keeping; Education; Potiguara; Brazil"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "29"@en , "Potiguara people"@en;
+                                schema:sameAs       wd:Q3066236;
+                                foaf:name           "Grauna, Graca"
+                              ];
+        schema:datePublished  "2016"^^xsd:gYear;
+        schema:inLanguage     "pt";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Impressoes de leitura do texto literario "
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Companhia das Letras ";
+                                schema:sameAs  wd:Q2990311
+                              ] .
+
+:Book040  rdf:type            schema:Book;
+        bf:classification     "CA-CG; T";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9780060141349"
+                              ];
+        dc:subject            "History - Canada; Worldview"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "69"@en , "Northern Cheyenne Tribe in Montana"@en;
+                                schema:sameAs       wd:Q2006701;
+                                foaf:name           "Storm, Hyemeyohsts"
+                              ];
+        schema:datePublished  "1972"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Seven Arrows";
+                                bf:title  wd:Q137496232
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Ballantine Books";
+                                schema:sameAs  wd:Q2881141
+                              ] .
+
+:Book011  rdf:type            schema:Book;
+        bf:classification     "CU-CX; W; Y; T; P; PW; PE";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9780802145420"
+                              ];
+        dc:subject            "History - North America; Arts; Literature; Worldview; Knowledge Keeping; Women; Elders"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "15"@en , "Sicangu Lakota"@en;
+                                schema:sameAs       wd:Q992401;
+                                foaf:name           "Brave Bird, Mary"
+                              ];
+        schema:datePublished  "1990"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Lakota Woman";
+                                bf:title  wd:Q3216499
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Harper Perennial";
+                                schema:sameAs  wd:Q5663419
+                              ] .
+
+:Book032  rdf:type            schema:Book;
+        bf:classification     "F-K; M; CA-CG; BKN; BK";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781640091603"
+                              ];
+        dc:subject            "Development, Law, Governance; Rights & Title; History - Canada; Nlaka'pamux; Interior Salish language"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "55"@en , "Nlaka'pamux"@en;
+                                schema:sameAs       wd:Q1456870;
+                                foaf:name           "Mailhot, Terese Marie"
+                              ];
+        schema:datePublished  "2018"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Heart berries: A memoir";
+                                bf:title  wd:Q56753996
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Counterpoint Press";
+                                schema:sameAs  wd:Q5177011
+                              ] .
+
+:Book003  rdf:type            schema:Book;
+        bf:classification     "N";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781560326953"
+                              ];
+        dc:subject            "Environment"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "Turkish Canadians"@en , "4"@en;
+                                schema:sameAs       wd:Q7855244;
+                                foaf:name           "Berkes, Fikret"
+                              ];
+        schema:datePublished  "2012"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Sacred Ecology: Traditional Ecological Knowledge and Resource Management"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Routledge Taylor & Francis Group";
+                                schema:sameAs  wd:Q1508259
+                              ] .
+
+:Book024  rdf:type            schema:Book;
+        bf:classification     "X; W; T; P; PW; YT-YUE";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9788578883614"
+                              ];
+        dc:contributor        [ rdf:type       foaf:Person;
+                                schema:sameAs  viaf:6101164913200718980007;
+                                foaf:name      "Mirim, Wera Jeguaka"
+                              ];
+        dc:contributor        [ rdf:type       foaf:Person;
+                                schema:sameAs  viaf:761150323684309971918;
+                                foaf:name      "Junqueira, Fran"
+                              ];
+        dc:subject            "Languages; Arts; Worldview; Knowledge Keeping; Women; Guarani"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "39"@en , "Tupi–Guarani peoples"@en;
+                                schema:sameAs       wd:Q4465585;
+                                foaf:name           "Jekupe, Olivio "
+                              ];
+        schema:datePublished  "2017"^^xsd:gYear;
+        schema:inLanguage     "gun" , "pt";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "O presente de Jaxy Jatere";
+                                bf:title  wd:Q121275825
+                              ];
+        schema:publisher      [ rdf:type     schema:Organization;
+                                schema:name  "Panda books (Toronto, Ont.)"
+                              ] .
+
+:Book045  rdf:type            schema:Book;
+        bf:classification     "DM; E; T; F-K; M";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781848139503"
+                              ];
+        dc:subject            "Maori; Education; Worldview; Development, Law, Governance; Rights & Title; "@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "79"@en , "Māori"@en;
+                                schema:sameAs       wd:Q6122670;
+                                foaf:name           "Tuhiwai Smith, Linda"
+                              ];
+        schema:datePublished  "1999"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Decolonizing Methodologies: Research and Indigenous Peoples";
+                                bf:title  wd:Q105095646
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Zed Books";
+                                schema:sameAs  wd:Q8068364
+                              ] .
+
+:Book016  rdf:type            schema:Book;
+        bf:classification     "S; CA-CX";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9780807763155"
+                              ];
+        dc:subject            "Health; History - North America"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "23"@en , "Apache"@en;
+                                schema:sameAs       wd:Q102090;
+                                foaf:name           "Durán, Eduardo 1949-"
+                              ];
+        schema:datePublished  "2019"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Healing the soul wound: Counseling with American Indians and other Native people. Second Edition"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Teachers College Press";
+                                schema:sameAs  wd:Q20715091
+                              ] .
+
+:Book037  rdf:type            schema:Book;
+        bf:classification     "ER; CU-CX";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9798217066018"
+                              ];
+        dc:subject            "Residential School; History - North America"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "66"@en , "Red Cliff Band of Wisconsin Ojibwe"@en;
+                                schema:sameAs       wd:Q7303906;
+                                foaf:name           "Pember, Mary Annette "
+                              ];
+        schema:datePublished  "2025"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Medicine River: A Story of Survival and the Legacy of Indian Boarding Schools"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Penguin Random House";
+                                schema:sameAs  wd:Q2908540
+                              ] .
+
+:Book008  rdf:type            schema:Book;
+        bf:classification     "E; CA-CX";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781452974279"
+                              ];
+        dc:subject            "Science; History - North America"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "11"@en , "Kanaka Maoli"@en;
+                                schema:sameAs       wd:Q1283606;
+                                foaf:name           "Casumbal-Salazar, Iokepa"
+                              ];
+        schema:datePublished  "2025"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "First Light: Kanaka Oiwi Resistance to Settler Science at Mauna a Wakea"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "University of Minnesota Press";
+                                schema:sameAs  wd:Q7895804
+                              ] .
+
+:Book029  rdf:type            schema:Book;
+        bf:classification     "CA-CG; M";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9780887558979"
+                              ];
+        dc:subject            "History - Canada; Rights & Title"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "French Canadians"@en , "49"@en;
+                                schema:sameAs       wd:Q857880;
+                                foaf:name           "Leroux, Darryl"
+                              ];
+        schema:datePublished  "2019"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Distorted Descent: White Claims to Indigenous Identity";
+                                bf:title  wd:Q124444255
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "University of Minnesota Press";
+                                schema:sameAs  wd:Q7895804
+                              ] .
+
+:Book050  rdf:type            schema:Book;
+        bf:classification     "W; Y; T; P; PW; YT-YUE";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9788532262189"
+                              ];
+        dc:subject            "Arts; Literature; Worldview; Knowledge Keeping; Women"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "88"@en , "Maraguás"@en;
+                                schema:sameAs       wd:Q135989558;
+                                foaf:name           "Yamã, Yaguarê"
+                              ];
+        schema:datePublished  "2007"^^xsd:gYear;
+        schema:inLanguage     "pt";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Kurumi Guare no Coracao da Amazonia"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "Editora FTD";
+                                schema:sameAs  wd:Q10270353
+                              ] .
+
+:Book021  rdf:type            schema:Book;
+        bf:classification     "BK; BKN; CA-CG";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781517916466"
+                              ];
+        dc:subject            "Interior Salish; Nlaka'pamux (Thompson); History - Canada"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "32"@en , "Nlaka'pamux"@en;
+                                schema:sameAs       wd:Q1456870;
+                                foaf:name           "Grenz, Jennifer"
+                              ];
+        schema:datePublished  "2024"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "Medicine Wheel for the Planet: A Journey toward Personal and Ecological Healing"
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "University of Minnesota Press";
+                                schema:sameAs  wd:Q7895804
+                              ] .
+
+:Book042  rdf:type            schema:Book;
+        bf:classification     "CA-CG; S";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9781608466290"
+                              ];
+        dc:subject            "History - Canada; Health"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "73"@en , "Anishinaabe"@en;
+                                schema:sameAs       wd:Q1956640;
+                                foaf:name           "Talaga, Tanya"
+                              ];
+        schema:datePublished  "2018"^^xsd:gYear;
+        schema:inLanguage     "en";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "All Our Relations";
+                                bf:title  wd:Q96611026
+                              ];
+        schema:publisher      [ rdf:type       schema:Organization;
+                                schema:name    "House of Anansi Press";
+                                schema:sameAs  wd:Q16985046
+                              ] .
