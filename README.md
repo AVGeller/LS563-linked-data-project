@@ -49,7 +49,9 @@ The intent is that this dataset serves as one contribution to a broader, ongoing
 
 ### Positionality and Intent
 
-This dataset was built by a third-generation descendant of great-grandparents who emigrated from Western and Eastern Europe in the late 1800s and early 1900s, arriving in New York and New England. Very little is known about those ancestors beyond their arrival. Reflecting on that family history — and on how assimilation and housing security shaped later generations' access to higher education — has influenced how this project approaches records, description, and access.
+This dataset was built by a third-generation descendant of great-grandparents who emigrated from Western and Eastern Europe in the late 1800s and early 1900s who were forced to assimilate upon arrival in New York and New England, and who over generations benefited from housing security and access to higher education that the assimilation made possible. Knowledge of those ancestors stops at arrival, nothing is known beyond that.
+
+Not knowing back seven generations is a gap that sits with this researcher. A lot is quietly lost through assimilation and the pull toward belonging to a dominant society: roots, foundations, the motivations that have shaped how communities and institutions behave today. Archives have the capacity to trace some of that back: migration patterns, ancestral experience, and the longer threads that connect past decisions to present realities. That is part of why archiving resonates personally here, and why the work of description and access feels like it carries weight beyond the technical.
 
 This project does not claim to represent Indigenous perspectives. What it aims to do is make works by Indigenous authors more findable and accessible through metadata that prioritizes self-identification and community-preferred terminology. What it does not aim to do is speak on behalf of any Nation, community, or individual, or treat this dataset as a finished or authoritative resource.
 
