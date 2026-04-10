@@ -2,7 +2,7 @@
 
 **Author:** avgeller
 **License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
-**Course:** Linked Data (first course project)
+**Course:** MLIS - LS563 Linked Data U of A (first course project)
 **Version:** 1.0: April 2026
 
 ---
@@ -271,7 +271,7 @@ Ethical and methodological standards for oral history projects, emphasizing tran
 
 ## A Note on AI Assistance
 
-This project was developed as part of LS 563 Linked Data at the University of Alabama. Feedback and coaching from the course professor, along with webinars and Indigenous policy resources, shaped the direction and decisions throughout. AI helped clean up the written content to make it flow in a user-friendly format and feel less overwhelming for potential dataset users.
+This project was developed as part of LS563 Linked Data at the University of Alabama, MLIS program. Feedback and coaching from the course professor, along with webinars and Indigenous policy resources, shaped the direction and decisions throughout. AI helped clean up the written content to make it flow in a user-friendly format and feel less overwhelming for potential dataset users.
 
 Claude AI (Anthropic) was used as an additional technical guide at points where the Turtle file was not functioning as expected: particularly when added columns introduced errors that needed to be worked through. Claude helped troubleshoot specific problems including the RDF transformation, the linked data model diagram, and getting the Turtle file to render correctly on GitHub.
 
