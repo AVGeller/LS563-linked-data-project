@@ -64,33 +64,37 @@ Where TK (Traditional Knowledge) Labels or community-defined permissions exist f
 ### Source Conflict Policy
 
 When sources conflicted on an author's name, affiliation, or background, the following preference order was applied:
+1. Creator self-identification — author-maintained websites, published interviews, or stated bios
+2. Nation, community, or Indigenous organization sources — tribal websites, official Nation directories, and Indigenous institutional records
+3. Institutional records with clear provenance — university faculty profiles, publisher pages, and library catalogs
+4. Secondary sources — encyclopedias, journalism, speaker agencies, and general reference works
 
-1. Community- or Nation-authored sources (e.g., tribal websites, official Nation directories)
-2. Creator self-identification (author-stated in interviews, bios, or published works)
-3. Institutional records with clear provenance
-4. Secondary sources
+For reconciling community, nation, and group affiliations, Wikidata entity types were used as a controlled vocabulary. The reconciliation interface offered a range of candidate types: ethnic group (Q41710), First Nation band (Q2882257), federally recognized Native American tribe in the United States (Q7840353), nation (Q6266), ethnic minority group (Q2531956), indigenous people (Q103817), indigenous peoples of North America (Q15571255), ethnic community (Q25380035), ethnolinguistic group (Q4533081), political territorial entity (Q1048835), polity (Q1063239), and broader fallback types like state (Q7275) and entity (Q35120). 
 
-Names and affiliations recorded in this dataset are **time-bound assertions**, not permanent facts. Nations, communities, and individuals may update how they identify over time, and records here should be treated accordingly.
+Not all cells were tested against each Wikidata category as the priority was both time and the need to ensure affiliations resolved to a Wikidata entity rather than remaining as literals. In practice, these were applied: 
+First Nation band (Q2882257) and ethnic group (Q41710), the latter used for both Indigenous and non-Indigenous authors. One labeling issue remains: the "Indigenous Group" Source Field in OpenRefine needs to be updated to reflect the Wikidata label it was reconciled to, federally recognized Native American tribe in the United States (Q7840353).
+
+The available Wikidata categories are worth discussing, particularly regarding whether they reflect how Indigenous Nations would choose to describe themselves. Of course, no nation should be treated as a monolith, and consensus on preferred terminology remains an open question and a meaningful one for conversations around data sovereignty. Names and affiliations recorded in this dataset are **time-bound assertions**, not permanent facts. Nations, communities, and individuals may update how they identify over time, and records here should be treated accordingly.
 
 ### Limits of Claims
 
-This dataset does not infer tribal affiliation. Imposed historical labels are not treated as definitive. Sensitive details about living people are minimized where possible, and the dataset does not attempt to assert more than what is documented in publicly available, author-proximate sources.
+This dataset does not infer tribal affiliation. Imposed labels from ontologies are not treated as definitive. Sensitive details about living people are minimized where possible, and the dataset does not attempt to assert more than what is documented in publicly available, author-proximate sources.
 
-The dataset cannot guarantee accuracy for all records — particularly where biographical sources were limited or where no community verification has yet taken place.
+The dataset cannot guarantee accuracy for all records; particularly where biographical sources were limited or where Wikidata divided up background in various categoies as mentioned above. 
 
 ### Potential Harms and Mitigations
 
-Known risks include misidentification of author background, inadvertent reinforcement of colonial categories, and exposure of personal information. Mitigations in place include: use of literal strings over imprecise URIs, source background notes to document uncertainty, minimal disclosure for sensitive details, and open correction pathways (see below).
+Known risks include misidentification of author background, inadvertent reinforcement of colonial categories, and exposure of personal information. Mitigations in place include: use of literal strings and keeping the literals intact, over imprecise URIs, source background notes to document uncertainty, minimal disclosure for sensitive details, and open correction pathways (see below).
 
 ### Feedback, Corrections, and Accountability
 
-Corrections, contested claims, and community feedback are welcome and taken seriously. Self-identification takes priority in any disputed record. When a change is made based on feedback, the update will be documented transparently — noting what changed, why, and where the information came from.
+Corrections, contested claims, and community feedback are welcome and taken seriously. Self-identification takes priority in any disputed record. When a change is made based on feedback, the update will be documented transparently: noting what changed, why, and where the information came from.
 
 To request a correction or flag a concern, open an issue in this repository or contact the dataset author directly. All feedback will be logged and acted on in future versions.
 
 ### Benefit and Reciprocity
 
-The intended benefit of this project is improved discoverability for community research, easier correction pathways, and support for community-defined naming over imposed terminology. Contributions — whether corrections, additions, or verifications — will be acknowledged in future versions of the dataset.
+The intended benefit of this project is improved discoverability for community research, easier correction pathways, and support for community-defined naming over imposed terminology. Contributions, whether corrections, additions, or verifications, will be acknowledged in future versions of the dataset.
 
 This project does not extract value from Indigenous knowledge for academic gain alone. The goal is that the dataset remains freely available and genuinely useful to the Nations and communities whose authors and works it describes.
 
@@ -111,7 +115,7 @@ The dataset uses the following ontologies, vocabularies, and namespaces:
 | `xsd:` | http://www.w3.org/2001/XMLSchema# | Datatypes (xsd:gYear) |
 | `rdf:` | http://www.w3.org/1999/02/22-rdf-syntax-ns# | RDF type declarations |
 
-**Classification System:** Subject headings and classification codes follow the [X̱wi7x̱wa Library Classification System](https://xwi7xwa.library.ubc.ca/collections/indigenous-knowledge-organization/) (University of British Columbia), an Indigenous-centered alternative to the Dewey Decimal System. This replaces Eurocentric classification frameworks with one grounded in Indigenous knowledge organization.
+**Classification System:** Subject headings and classification codes follow the [X̱wi7x̱wa Library Classification System](https://xwi7xwa.library.ubc.ca/collections/indigenous-knowledge-organization/) (University of British Columbia), an Indigenous-centered system that replaces Eurocentric classification frameworks.
 
 **Language Codes:** Both ISO 639-1 two-letter and ISO 639-3 three-letter codes are used throughout (e.g., `en`, `es`, `pt`, `zap`, `gun`, `nhd`), looked up via the [BCP47 Language Subtag Lookup](https://r12a.github.io/app-subtags/) (r12a).
 
@@ -152,38 +156,34 @@ The following RDF/Turtle triples illustrate the structure and linking strategy u
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-# --- Book record ---
-<https://example.org/books/Book001>
-    rdf:type              schema:Book ;
-    schema:name           "Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants" ;
-    schema:author         <https://example.org/persons/RobinWallKimmerer> ;
-    schema:datePublished  "2013"^^xsd:gYear ;
-    schema:inLanguage     "en" ;
-    bf:classificationNumber "IK-ECO 583" ;
-    dc:subject            "Indigenous knowledge", "Ethnobotany", "Plants -- Folklore" .
-
-# --- Author record (Indigenous author, linked to Wikidata and VIAF) ---
-<https://example.org/persons/RobinWallKimmerer>
-    rdf:type              foaf:Person ;
-    foaf:name             "Robin Wall Kimmerer" ;
-    schema:nationality    wd:Q189672 ;     # Potawatomi Nation (Wikidata URI)
-    viaf:viafID           viaf:69059017 .  # VIAF authority record
-
-# --- Book record with ISBN ---
-<https://example.org/books/Book020>
-    rdf:type              schema:Book ;
-    schema:name           "Alfabeto mazateco" ;
-    schema:author         <https://example.org/persons/JuanGregorioRegino> ;
-    schema:datePublished  "1993"^^xsd:gYear ;
-    schema:inLanguage     "zap" ;
-    bf:isbn               [ rdf:type bf:Isbn ; rdf:value "9686951067" ] .
-
-# --- Author record (literal string used — no precise Wikidata URI available) ---
-<https://example.org/persons/JuanGregorioRegino>
-    rdf:type              foaf:Person ;
-    foaf:name             "Juan Gregorio Regino" ;
-    schema:nationality    "Mazatec" .      # Literal string: no matching Wikidata URI
-```
+:Book024  rdf:type            schema:Book;
+        bf:classification     "X; W; T; P; PW; YT-YUE";
+        bf:identifiedBy       [ rdf:type   bf:Isbn;
+                                rdf:value  "9788578883614"
+                              ];
+        dc:contributor        [ rdf:type       foaf:Person;
+                                schema:sameAs  viaf:6101164913200718980007;
+                                foaf:name      "Mirim, Wera Jeguaka"
+                              ];
+        dc:contributor        [ rdf:type       foaf:Person;
+                                schema:sameAs  viaf:761150323684309971918;
+                                foaf:name      "Junqueira, Fran"
+                              ];
+        dc:subject            "Languages; Arts; Worldview; Knowledge Keeping; Women; Guarani"@en;
+        schema:author         [ rdf:type            foaf:Person;
+                                schema:description  "Tupí-Ruaraní of Brazil (per elfikurten.com.br/2021/12/olivio-jekupe.html)"@en , "Tupi–Guarani peoples"@en;
+                                schema:sameAs       wd:Q4465585;
+                                foaf:name           "Jekupe, Olivio "
+                              ];
+        schema:datePublished  "2017"^^xsd:gYear;
+        schema:inLanguage     "gun" , "pt";
+        schema:name           [ rdf:type  schema:Book;
+                                bf:title  "O presente de Jaxy Jatere";
+                                bf:title  wd:Q121275825
+                              ];
+        schema:publisher      [ rdf:type     schema:Organization;
+                                schema:name  "Panda books (Toronto, Ont.)"
+                              ] .
 
 ---
 
