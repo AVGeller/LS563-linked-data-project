@@ -1,4 +1,4 @@
-@prefix :       <https://example.com/> .
+int@prefix :       <https://example.com/> .
 @prefix bf:     <http://id.loc.gov/ontologies/bibframe/> .
 @prefix dc:     <http://purl.org/dc/elements/1.1/> .
 @prefix foaf:   <http://xmlns.com/foaf/0.1/> .
@@ -18,7 +18,7 @@
                               ];
         dc:subject            "History - North America; Arts; Literature; Worldview; Knowledge Keeping; Elders"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "18"@en , "Standing Rock Sioux Tribe"@en;
+                                schema:description  "Member of Standing Rock Sioux (per ebsco.com/research-starters/biography/vine-deloria-jr)"@en , "Standing Rock Sioux Tribe"@en;
                                 schema:sameAs       wd:Q17280792;
                                 foaf:name           "Deloria, Jr., Vine"
                               ];
@@ -50,7 +50,7 @@
                               ];
         dc:subject            "Arts; Literature; Worldview; Knowledge Keeping; Women"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "61"@en , "Mayan k’iche'"@en;
+                                schema:description  "Mayan k’iche' )per nobelwomensinitiative.org/rigobertamenchutum)"@en , "Mayan k’iche'"@en;
                                 schema:sameAs       wd:Q1137419;
                                 foaf:name           "Menchu Tum, Rigoberta "
                               ];
@@ -72,7 +72,7 @@
                               ];
         dc:subject            "Ethnobotany; History - North America"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "7"@en , "Refugee of the Red River Métis Nation"@en;
+                                schema:description  "Refugee of the Red River Métis Nation (per loriannbird.ca). Left as literal due to option was not available on Wikidata."@en , "Refugee of the Red River Métis Nation"@en;
                                 foaf:name           "Bird, LoriAnn"
                               ];
         schema:datePublished  "2025"^^xsd:gYear;
@@ -92,7 +92,7 @@
                               ];
         dc:subject            "Literature; Arts; History - North America"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "42"@en , "Anishinaabe"@en;
+                                schema:description  "Anishinaabe/Ukrainian writer and speaker (per transatlanticagency.com/clients/speakers/patty-krawec). Was unable to find Ukrainian ancestry in wikidata. Was able to find 'Ukrainian'. See collision notes for 'Ukrainian'. "@en , "Anishinaabe"@en;
                                 schema:sameAs       wd:Q1956640;
                                 foaf:name           "Krawec, Patty"
                               ];
@@ -113,7 +113,7 @@
                               ];
         dc:subject            "Knowledge Keeping; Environment; Science; Worldview"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "84"@en , "Citizen Potawatomi Nation"@en;
+                                schema:description  "Enrolled citizen of the Citizen Potawatomi Nation (per robinwallkimmerer.com)"@en , "Citizen Potawatomi Nation"@en;
                                 schema:sameAs       wd:Q5122575;
                                 foaf:name           "Wall Kimmerer, Robin "
                               ];
@@ -135,7 +135,7 @@
                               ];
         dc:subject            "History - Canada; Health; Development, Law, Governance; Rights & Title"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "Canadians"@en , "28"@en;
+                                schema:description  "Canadians"@en;
                                 schema:sameAs       wd:Q1196645;
                                 foaf:name           "Geddes, Gary"
                               ];
@@ -156,7 +156,7 @@
                               ];
         dc:subject            "Worldview"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "68"@en , "Muscowpetung First Nation"@en;
+                                schema:description  "Member of the Muscowpetung First Nation in Saskatchewan strongnations.com/gs/show.php?gs=3&gsd=3866"@en , "Muscowpetung First Nation"@en;
                                 schema:sameAs       wd:Q46578032;
                                 foaf:name           "Stonechild, Blair"
                               ];
@@ -178,7 +178,7 @@
                               ];
         dc:subject            "Health; History - North America"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "14"@en , "Mohican"@en;
+                                schema:description  "Member of the Mohican Nation (per albertafamilywellness.org/faculty-members/don-coyhis)"@en , "Mohican"@en;
                                 schema:sameAs       wd:Q776280;
                                 foaf:name           "Coyhis, Don"
                               ];
@@ -199,7 +199,7 @@
                               ];
         dc:subject            "History - North America; Health"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "51"@en , "Turtle Mountain Band of Chippewa Indians"@en;
+                                schema:description  "Enrolled citizen of Turtle Mountain Band of Chippewa (maternal) (per elenabrower.com/episode-217-chelsey-luger)"@en , "Turtle Mountain Band of Chippewa Indians"@en;
                                 schema:sameAs       wd:Q7856433;
                                 foaf:name           "Luger, Chelsey"
                               ];
@@ -220,7 +220,7 @@
                               ];
         dc:subject            "Health; Development, Law, Governance; Rights & Title; History - Canada "@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "2"@en , "Mi'kmaq"@en;
+                                schema:description  "Mi'kmaq per bio on Festival of Authors, festivalofauthors.ca/book-author/cyndy-baskin. Aka - Mi’kmaw (Q495751) First Nations people of the Northeastern Woodlands Mi'kmaq people, Micmacs, Mi'kmaq, L'nu wikidata.org/wiki/Q495751"@en , "Mi'kmaq"@en;
                                 schema:sameAs       wd:Q495751;
                                 foaf:name           "Baskin, Cyndy"
                               ];
@@ -241,7 +241,7 @@
                               ];
         dc:subject            "Knowledge Keeping; Indigenous Central American; Zapotec"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "37"@en , "Zapotec"@en;
+                                schema:description  "Binniza; Zapotec; Maya Ch'orti (per jessicabhernandez.com) This entry employs the Zapotec wd:URI (e.g., Q13317) to provide linked data connectivity for both \"Zapotec\" and the Spanish endonym Binnizá. The Wikidata entry includes a wide array of linguistic and phonetic variants (e.g., Be'ena'a, Ben 'Zaa, Didxazá, Za), the specific term Binnizá is maintained as a literal to ensure alignment with the author’s self-identification. This approach preserves the precise indigeneity of the biographical record where a exact URI match for the primary endonym is unavailable."@en , "Zapotec"@en;
                                 schema:sameAs       wd:Q147401;
                                 foaf:name           "Hernandez, Jessica, 1990-"
                               ];
@@ -265,7 +265,7 @@
                               ];
         dc:subject            "Languages; Arts; Literature; Worldview; Knowledge Keeping"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "77"@en , "Zapotec"@en;
+                                schema:description  "Zapotec of Juchitan of Oaxaca, Mexico per calendar.umd.edu/visit-by-mexican-poet-natalia-toledo-2"@en , "Zapotec"@en;
                                 schema:sameAs       wd:Q147401;
                                 foaf:name           "Toledo, Natalia "
                               ];
@@ -290,7 +290,7 @@
                               ];
         dc:subject            "Literature; Arts; Languages; Guaraní peoples; Paraguay"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "21"@en , "Ava guaraníes"@en;
+                                schema:description  "Ava guaraníes, maternal side (per imsouthamerican.com/wr/alba-eiragui-duarteper) "@en , "Ava guaraníes"@en;
                                 schema:sameAs       wd:Q1074714;
                                 foaf:name           "Duarte Portillo, Alba Eiragi "
                               ];
@@ -300,7 +300,7 @@
                                 bf:title  "Mandu'a ne'e poty "
                               ];
         schema:publisher      [ rdf:type     schema:Organization;
-                                schema:name  "Arandurã Editoria"
+                                schema:name  "Arandurã Editoria"
                               ] .
 
 :Book036  rdf:type            schema:Book;
@@ -310,7 +310,7 @@
                               ];
         dc:subject            "Inuit; History - North America; Arts; Literature; Worldview; Knowledge Keeping; Women"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "64"@en , "Iñupiaq"@en;
+                                schema:description  "Iñupiaq member and grew up in Anchorage, Alaska, with family from King Island and Mary’s Igloo, AK per .poetryfoundation.org/poets/joan-kane"@en , "Iñupiaq"@en;
                                 schema:sameAs       wd:Q1417088;
                                 foaf:name           "Naviyuk Kane, Joan  "
                               ];
@@ -330,7 +330,7 @@
                               ];
         dc:subject            "Knowledge Keeping; Environment; History - North America"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "10"@en , "Cherokee Nation"@en;
+                                schema:description  "Cherokee Nation of Oklahoma citizen (per inhabitingtheanthropocene.com)"@en , "Cherokee Nation"@en;
                                 schema:sameAs       wd:Q14708404;
                                 foaf:name           "Burkhart, Brian"
                               ];
@@ -351,7 +351,7 @@
                               ];
         dc:subject            "Environment; Worldview"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "Finnish Americans"@en , "48"@en;
+                                schema:description  "Finnish Americans"@en;
                                 schema:sameAs       wd:Q3072663;
                                 foaf:name           "Lenor Hanson, Ranae"
                               ];
@@ -372,7 +372,7 @@
                               ];
         dc:subject            "Indigenous Hawaiian; Knowledge Keeping"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "86"@en , "Native Hawaiians"@en;
+                                schema:description  "Native Hawaiian (per normawong.com/about)"@en , "Native Hawaiians"@en;
                                 schema:sameAs       wd:Q1283606;
                                 foaf:name           "Wong, Norma"
                               ];
@@ -393,7 +393,7 @@
                               ];
         dc:subject            "Languages (Mazatec); Worldview; Knowledge Keeping (Mazatec)"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "31"@en , "Mazatec people"@en;
+                                schema:description  "Mazatec (per jstor.org.libdata.lib.ua.edu/stable/4139050)"@en , "Mazatec people"@en;
                                 schema:sameAs       wd:Q1262708;
                                 foaf:name           "Gregorio Regino, Juan"
                               ];
@@ -414,7 +414,7 @@
                               ];
         dc:subject            "Women; Rights & Title; Development, Law, Goverance; History - North America"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "70"@en , "Oneida Nation of the Thames"@en;
+                                schema:description  "Member of the Oneida Nation of the Thames, of the Turtle Clan and Italian ancestry (paternal) and lived in Italy for 10 years of her childhood per sociology.uwo.ca/people/profiles/Sunseri.html"@en , "Oneida Nation of the Thames"@en;
                                 schema:sameAs       wd:Q7093671;
                                 foaf:name           "Sunseri, Lina"
                               ];
@@ -435,7 +435,7 @@
                               ];
         dc:subject            "History - North America; History - Canada; Health; Development, Law, Governance; Rights & Title"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "Canadians"@en , "17"@en;
+                                schema:description  "Canadians"@en;
                                 schema:sameAs       wd:Q1196645;
                                 foaf:name           "Daschuk, James W."
                               ];
@@ -456,7 +456,7 @@
                               ];
         dc:subject            "History - Canada; Worldview; Development, Law, Governance; Rights & Title; Women"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "57"@en , "Cherokee Nation"@en;
+                                schema:description  "Cherokee Nation (paternal) (per plainshumanities.unl.edu/encyclopedia/doc/egp.na.062.html)"@en , "Cherokee Nation"@en;
                                 schema:sameAs       wd:Q14708404;
                                 foaf:name           "Mankiller, Wilma"
                               ];
@@ -477,7 +477,7 @@
                               ];
         dc:subject            "Rights & Title; Development, Law, Governance; History - Canada;"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "5"@en , "Michi Saagiig Nishnaabeg"@en;
+                                schema:description  "Michi Saagiig Nishnaabeg per author's website (leannesimpson.ca). Per wikidata entry, \"subtribe of the First Nations people in southern Ontario, Canada\nMichi Saagiig, Michi Saagiig Anishinaabe, Michi Saagiig Nishnaabeg "@en , "Michi Saagiig Nishnaabeg"@en;
                                 schema:sameAs       wd:Q950097;
                                 foaf:name           "Betasamosake Simpson, Leanne"
                               ];
@@ -499,7 +499,7 @@
                               ];
         dc:subject            "Ethnobotany; History - North America"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "41"@en , "Skwxwú7mesh"@en;
+                                schema:description  "Member of the Skwxwú7mesh (Squamish) First Nation leighjoseph.com/about"@en , "Skwxwú7mesh"@en;
                                 schema:sameAs       wd:Q7581946;
                                 foaf:name           "Leigh Joseph (Styawat)"
                               ];
@@ -520,7 +520,7 @@
                               ];
         dc:subject            "Arts, Music, Dance; Health; Ojibwe peoples"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "83"@en , "Wabaseemoong Independent Nations"@en;
+                                schema:description  "Wabaseemoong Independent Nations of the Ojibwe First Nation (per thecanadianencyclopedia.ca/en/article/richard-wagamese)"@en , "Wabaseemoong Independent Nations"@en;
                                 schema:sameAs       wd:Q7958622;
                                 foaf:name           "Wagamese, Richard"
                               ];
@@ -541,7 +541,7 @@
                               ];
         dc:subject            "Health; Worldview"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "26"@en , "Neyaashiinigmiig"@en;
+                                schema:description  "Literal is employed to ensure alignment with the author's self-identification and preserve their indigeneity per the biographical record. This approach is utilized over external identifiers (e.g., Wikidata URIs) because available URIs do not accurately reflect the specific identity documented in the source. Holds membership at Neyaashiinigmiig (Cape Croker) First Nation speakerscanada.com/keynote-speaker/asha-frost. Per source, \"Cape Croker Indian Reserve... was officially named “Neyaashiinigmiing” on January 21, 1992. It means “point of land surrounded on three side by water.” nawash.ca/about-chippewas-of-nawash. Per source \"Chippewas of Nawash Unceded First Nation (Ojibwe: Neyaashiinigmiing Anishinaabek) is an Anishinaabek First Nation from the Bruce Peninsula region in Ontario, Canada. Along with the Saugeen First Nation, they form the Saugeen Ojibway Nation. The Chippewas of Nawash Unceded First Nation currently has a registered membership of 2758 individuals, as of December, 2020. Approximately 700 members live on the main reserve, Neyaashiinigmiing 27 (formerly known as Cape Croker). The First Nation has 3 reserves, Neyaashiinigmiing 27, Cape Croker Hunting Ground 60B and Saugeen and Cape Croker Fishing Islands 1. The size of all reserves is 8083.70 hectares (31.21 sq. mi.)\" whose.land/en/communities/chippewas-of-nawash-unceded-first-nation."@en , "Neyaashiinigmiig"@en;
                                 foaf:name           "Frost, Asha"
                               ];
         schema:datePublished  "2022"^^xsd:gYear;
@@ -561,7 +561,7 @@
                               ];
         dc:subject            "History - Canada; Health"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "67"@en , "Deninu Kųę́ First Nation"@en;
+                                schema:description  "Member of Deninu Kųę́ First Nation (Northwest Territories) per indigenous.uwo.ca/AboutUs/faculty/Nicole_Redvers.html"@en , "Deninu Kųę́ First Nation"@en;
                                 schema:sameAs       wd:Q85756361;
                                 foaf:name           "Redvers, Nicole"
                               ];
@@ -582,7 +582,7 @@
                               ];
         dc:subject            "Arts; Literature; Worldview; Women"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "13"@en , "Mapuche"@en;
+                                schema:description  "Mapuche people of Chile (per wikiwand.com/en/Ivonne_Co%C3%B1uecar)"@en , "Mapuche"@en;
                                 schema:sameAs       wd:Q178484;
                                 foaf:name           "Conuecar, Ivonne "
                               ];
@@ -602,7 +602,7 @@
                               ];
         dc:subject            "Health; Development, Law, Governance; Rights & Title"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "50"@en , "Rainy River First Nations"@en;
+                                schema:description  "Member of Rainy River First Nations in Northwestern Ontario fernwoodpublishing.ca/authors/view/renee-linklater"@en , "Rainy River First Nations"@en;
                                 schema:sameAs       wd:Q7285021;
                                 foaf:name           "Linklater, Renee"
                               ];
@@ -623,7 +623,7 @@
                               ];
         dc:subject            "History - Canada; Health; Development, Law, Governance; Rights & Title"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "0"@en , "Fisher River Cree Nation"@en;
+                                schema:description  "Cree and citizen of Fisher River Cree Nation (Ochekwi-Sipi; Treaty 5 per University of Toronto bio, discover.research.utoronto.ca/24795-jeffrey-ansloos"@en , "Fisher River Cree Nation"@en;
                                 schema:sameAs       wd:Q5454839;
                                 foaf:name           "Ansloos, Jeffrey Paul"
                               ];
@@ -644,7 +644,7 @@
                               ];
         dc:subject            "Arts; Literature; Worldview; Knowledge Keeping; Women"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "34"@en , "Mvskoke Nation"@en;
+                                schema:description  "Citizen of the Mvskoke Nation (per womenshistory.org/education-resources/biographies/joy-harjo). This entry utilizes the Muscogee [(Creek) Nation] Wikidata URI to provide linked data connectivity. The wd:URI includes the updated term \"Mvskoke,\" under the heading. The literal string is maintained to ensure alignment of Mvskoke Nation with the author’s indigeneity (per womenshistory.org)."@en , "Mvskoke Nation"@en;
                                 schema:sameAs       wd:Q6940348;
                                 foaf:name           "Harjo, Joy "
                               ];
@@ -665,7 +665,7 @@
                               ];
         dc:subject            "Arts;  Worldview; Knowledge Keeping; Women"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "76"@en , "Lipan Apache Band of Texas"@en;
+                                schema:description  "Tribally enrolled Lipan Apache Band of Texas, an organization that does not have federal or state recognition, who are of the greater Dene Nation currently trifurcated by the Canada-US and US-Mexico settler borders per margotamez.com"@en , "Lipan Apache Band of Texas"@en;
                                 schema:sameAs       wd:Q123907336;
                                 foaf:name           "Tamez, Margo"
                               ];
@@ -686,7 +686,7 @@
                               ];
         dc:subject            "Knowledge Keeping; Worldview; Arts, Literature"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "19"@en , "Pipa Aha Macav"@en;
+                                schema:description  "Born in the Fort Mojave Indian Village in Needles, Ca. She is Mojave community.poetryfoundation.org/poets/natalie-diaz. Per source, \"Mojave Indians are Pipa Aha Macav — “The People By The River.” Mojave culture traces the earthly origins of its people to Spirit Mountain, the highest peak in the Newberry Mountains, located northwest of the present reservation inside the Lake Mead National Recreation Area\". (fortmojaveindiantribe.com/about-us)"@en , "Pipa Aha Macav"@en;
                                 schema:sameAs       wd:Q57061684;
                                 foaf:name           "Diaz, Natalie"
                               ];
@@ -707,7 +707,7 @@
                               ];
         dc:subject            "Health; Indigenous Contemporary Issues; History - Canada; Teen Books;  Depression and Anxiety"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "63"@en , "Nehiyaw (Cree) Nation"@en;
+                                schema:description  "Nehiyaw (Cree) Nation (per strongnations.com/gs/show.php?gs=3&gsd=6356)"@en , "Nehiyaw (Cree) Nation"@en;
                                 schema:sameAs       wd:Q1704409;
                                 foaf:name           "Methot, Suzanne"
                               ];
@@ -728,7 +728,7 @@
                               ];
         dc:subject            "Arts; Worldview; Knowledge Keeping; History - North America; "@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "8"@en , "Lil'wat First Nation"@en;
+                                schema:description  "Descendant of the Lil'Wat Nation of Mount Currie (per julianbravenoisecat.com)"@en , "Lil'wat First Nation"@en;
                                 schema:sameAs       wd:Q6547392;
                                 foaf:name           "Brave NoiseCat, Julian "
                               ];
@@ -756,7 +756,7 @@
                               ];
         dc:subject            "Worldview; Knowledge Keeping; Literature"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "46"@en , "Krenak"@en;
+                                schema:description  "Krenak (Crenaque) people of Brazil per companhiadasletras.com.br/livro/9788535933581/ideias-para-adiar-o-fim-do-mundo-nova-edicao"@en , "Krenak"@en;
                                 schema:sameAs       wd:Q3816974;
                                 foaf:name           "Krenak, Ailton "
                               ];
@@ -778,7 +778,7 @@
                               ];
         dc:subject            "Environment; Inuit women; History - Canada"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "85"@en , "Inuit"@en;
+                                schema:description  "Sheila Watt-Cloutier lived a traditional Inuit life until the age of 10 (per uwinnipeg.ca/awards-distinctions/honorary-doctorate/cloutier.html)"@en , "Inuit"@en;
                                 schema:sameAs       wd:Q16157735;
                                 foaf:name           "Watt-Cloutier, Sheila "
                               ];
@@ -800,7 +800,7 @@
                               ];
         dc:subject            "Arts; Worldview; Knowledge Keeping; Education; Potiguara; Brazil"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "29"@en , "Potiguara people"@en;
+                                schema:description  "Potiguara of Brazil (per latinamericanliteraturetoday.org/lal_author/graca-grauna)"@en , "Potiguara people"@en;
                                 schema:sameAs       wd:Q3066236;
                                 foaf:name           "Grauna, Graca"
                               ];
@@ -821,7 +821,7 @@
                               ];
         dc:subject            "History - Canada; Worldview"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "69"@en , "Northern Cheyenne Tribe in Montana"@en;
+                                schema:description  "Northern Cheyenne Tribe in Montana per  ipl.org/div/natam/bin/browse.pl/A94"@en , "Northern Cheyenne Tribe in Montana"@en;
                                 schema:sameAs       wd:Q2006701;
                                 foaf:name           "Storm, Hyemeyohsts"
                               ];
@@ -843,7 +843,7 @@
                               ];
         dc:subject            "History - North America; Arts; Literature; Worldview; Knowledge Keeping; Women; Elders"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "15"@en , "Sicangu Lakota"@en;
+                                schema:description  "Sicangu Lakota (per alchetron.com/Mary-Brave-Bird)"@en , "Sicangu Lakota"@en;
                                 schema:sameAs       wd:Q992401;
                                 foaf:name           "Brave Bird, Mary"
                               ];
@@ -865,7 +865,7 @@
                               ];
         dc:subject            "Development, Law, Governance; Rights & Title; History - Canada; Nlaka'pamux; Interior Salish language"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "55"@en , "Nlaka'pamux"@en;
+                                schema:description  "Member of the Nlaka'pamux (per thebcreview.ca/2019/09/18/617-escape-from-seabird-island)"@en , "Nlaka'pamux"@en;
                                 schema:sameAs       wd:Q1456870;
                                 foaf:name           "Mailhot, Terese Marie"
                               ];
@@ -887,7 +887,7 @@
                               ];
         dc:subject            "Environment"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "Turkish Canadians"@en , "4"@en;
+                                schema:description  "Turkish Canadians"@en;
                                 schema:sameAs       wd:Q7855244;
                                 foaf:name           "Berkes, Fikret"
                               ];
@@ -916,7 +916,7 @@
                               ];
         dc:subject            "Languages; Arts; Worldview; Knowledge Keeping; Women; Guarani"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "39"@en , "Tupi–Guarani peoples"@en;
+                                schema:description  "Tupí-Ruaraní of Brazil (per elfikurten.com.br/2021/12/olivio-jekupe.html)"@en , "Tupi–Guarani peoples"@en;
                                 schema:sameAs       wd:Q4465585;
                                 foaf:name           "Jekupe, Olivio "
                               ];
@@ -937,7 +937,7 @@
                               ];
         dc:subject            "Maori; Education; Worldview; Development, Law, Governance; Rights & Title; "@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "79"@en , "Māori"@en;
+                                schema:description  "Maori; Ngati Porou iwi (maternal); Ngati Awa iwi (paternal) and Tuhourangi iwi (tribe) per uwinnipeg.ca/awards-distinctions/honorary-doctorate/tuhiwai-smith.html"@en , "Māori"@en;
                                 schema:sameAs       wd:Q6122670;
                                 foaf:name           "Tuhiwai Smith, Linda"
                               ];
@@ -959,7 +959,7 @@
                               ];
         dc:subject            "Health; History - North America"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "23"@en , "Apache"@en;
+                                schema:description  "Apache (per zmm.org/podcast/decolonizing-awakening-on-turtle-mountain-interview-with-ed-duran)"@en , "Apache"@en;
                                 schema:sameAs       wd:Q102090;
                                 foaf:name           "Durán, Eduardo 1949-"
                               ];
@@ -980,7 +980,7 @@
                               ];
         dc:subject            "Residential School; History - North America"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "66"@en , "Red Cliff Band of Wisconsin Ojibwe"@en;
+                                schema:description  "Enrolled citizen of the Red Cliff Band of Wisconsin Ojibwe tribe per midwestclimatecollaborative.wustl.edu/people/mary-annette-pember"@en , "Red Cliff Band of Wisconsin Ojibwe"@en;
                                 schema:sameAs       wd:Q7303906;
                                 foaf:name           "Pember, Mary Annette "
                               ];
@@ -1001,7 +1001,7 @@
                               ];
         dc:subject            "Science; History - North America"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "11"@en , "Kanaka Maoli"@en;
+                                schema:description  "Mixed-race Kanaka Maoli. Mother is white and from Hawaiʻi (per campusdirectory.ucsc.edu/cd_detail?uid=jsalaz27)"@en , "Kanaka Maoli"@en;
                                 schema:sameAs       wd:Q1283606;
                                 foaf:name           "Casumbal-Salazar, Iokepa"
                               ];
@@ -1022,7 +1022,7 @@
                               ];
         dc:subject            "History - Canada; Rights & Title"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "French Canadians"@en , "49"@en;
+                                schema:description  "French Canadians"@en;
                                 schema:sameAs       wd:Q857880;
                                 foaf:name           "Leroux, Darryl"
                               ];
@@ -1044,7 +1044,7 @@
                               ];
         dc:subject            "Arts; Literature; Worldview; Knowledge Keeping; Women"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "88"@en , "Maraguás"@en;
+                                schema:description  "Maraguá (maternal) (per museudapessoa.org/historia-de-vida/o-sater-escritor)"@en , "Maraguás"@en;
                                 schema:sameAs       wd:Q135989558;
                                 foaf:name           "Yamã, Yaguarê"
                               ];
@@ -1065,7 +1065,7 @@
                               ];
         dc:subject            "Interior Salish; Nlaka'pamux (Thompson); History - Canada"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "32"@en , "Nlaka'pamux"@en;
+                                schema:description  "Nlaka‘pamux woman of mixed ancestry (per forestry.ubc.ca/faculty-profile/jennifer-grenz)"@en , "Nlaka'pamux"@en;
                                 schema:sameAs       wd:Q1456870;
                                 foaf:name           "Grenz, Jennifer"
                               ];
@@ -1086,7 +1086,7 @@
                               ];
         dc:subject            "History - Canada; Health"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "73"@en , "Anishinaabe"@en;
+                                schema:description  "Anishinaabe (maternal); (per confederationcentre.com/wp-content/uploads/2023/08/Talaga-Tanya-Web-Bio.pdf)"@en , "Anishinaabe"@en;
                                 schema:sameAs       wd:Q1956640;
                                 foaf:name           "Talaga, Tanya"
                               ];
