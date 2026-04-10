@@ -1,6 +1,6 @@
 # Indigenous Knowledge Books — Linked Data Dataset
 
-**Author:** Divya
+**Author:** avgeller
 **License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 **Course:** Linked Data (first course project)
 **Version:** 1.0 — April 2026
