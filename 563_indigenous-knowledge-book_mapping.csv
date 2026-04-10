@@ -1,0 +1,30 @@
+﻿Source Field,Target Entity,RDF Property,Node Structure,Vocabulary / Namespace,Value Type (Literal/URI),Datatype / Language Tag,Cardinality,Transformation Notes,External Linking Strategy,Example Value
+Book ID,Work,schema:name,schema:name → _:b (schema:Book) → bf:title,schema,URI,,1,—,—,Indexed range: Books001–050. Typed as rdf:type schema:Book
+Original Title,Item,schema:name,_:b (schema:Book) → bf:title,schema,Literal,Text,1,—,—,"""Growing Papaya Trees: Nurturing Indigenous Roots During Climate Displacement"""
+Original Title VIAF URI,Item,schema:name,_:b (schema:Book) → bf:title,schema,URI,,0..n,URI linking to the original title record in VIAF,VIAF,https://viaf.org/en/viaf/8906159764120108170001
+Original Title Wikidata URI,Item,schema:name,_:b (schema:Book) → bf:title,schema,URI,,0..1,URI linking to the original title record in Wikidata,Wikidata,https://www.wikidata.org/wiki/Q121275825
+Instance of Work,Instance,schema:name,bf:instance → _:b (bf:Instance) → schema:name,schema,URI,,1,—,—,"""Ideas to postpone the end of the world"""
+Instance of Work Wikidata URI,Item,schema:sameAs,bf:instance → _:b (bf:Instance) → schema:sameAs,schema,URI,,0..1,URI linking to the original title record in Wikidata,Wikidata,https://www.wikidata.org/wiki/Q117382781
+Author,Person,schema:author,schema:author → _:b (foaf:Person) → foaf:name,schema,Literal,Text,1..n,Normalize to 'First Last' format. Normalize to include middle initial if it is listed.Normalize to VIAF URI format. Example: https://viaf.org/viaf/12345678. Normalize to Wikidata URI format. Example: ,—,"""Lina Sunseri"""
+Author VIAF URI,Person,schema:sameAs,_:b (foaf:Person) → schema:sameAs,schema,URI,,0..n,URI linking to the original title record in VIAF,VIAF,https://viaf.org/en/viaf/90599516 of Rigoberta Menchú Tum
+Author Wikidata URI,Person,schema:sameAs,_:b (foaf:Person) → schema:sameAs,schema,URI,,0..n,URI linking to the original title record in Wikidata,Wikidata,https://www.wikidata.org/wiki/Q3296164 Mary Brave Bird (Mary Crow Dog)
+Background of Indigenous Author,Concept,schema:description,_:b (foaf:Person) → schema:description,schema,Literal,Text,1..n,"Brief terms found in author bios used to describe indigeneity, which was used to build onto the follow options in Wikidata; First Nation band, Indigenous Group, Ethnic Group",—,"""Skwxwú7mesh"""
+Source Background for Indigenous Author,Concept,schema:description,_:b (foaf:Person) → schema:description,schema,Literal,Text,0..1,Free-text field documenting how source/author background was identified and why culturally accurate spellings are used (including differences from mainstream spellings).,—,"""Nehiyaw (Cree) Nation (per strongnations.com/gs/show.php?gs=3&gsd=6356)"""
+FirstNation_band_Author_Wikidata_URI,Concept,schema:sameAs,_:b (foaf:Person) → schema:sameAs,schema,URI,,0..n,Wikidata URI ,Wikidata,https://www.wikidata.org/wiki/Q85756361
+IndigenousGroup_Indigenous_Author_Wikidata_URI,Concept,schema:sameAs,_:b (foaf:Person) → schema:sameAs,schema,URI,,0..n,Wikidata URI ,Wikidata,https://www.wikidata.org/wiki/Q7303906
+Ethnic_Group_Indigenous_Author_Wikidata_URI,Concept,schema:sameAs,_:b (foaf:Person) → schema:sameAs,schema,URI,,0..n,Wikidata URI,Wikidata,https://www.wikidata.org/wiki/Q1417088
+Ethnic_Group_non-Indigenous_Author,Concept,schema:sameAs,_:b (foaf:Person) → schema:description,schema,Literal,,0..1,—,—,"""Finnish Americans"""
+Ethnic_Group_non-Indigenous_Author_Wikidata_URI,Concept,schema:sameAs,_:b (foaf:Person) → schema:sameAs,schema,URI,,0..1,Wikidata URI ,Wikidata,https://www.wikidata.org/wiki/Q3072663
+Source Background for non-Indigenous Author,Concept,schema:description,_:b (foaf:Person) → schema:description,schema,Literal,Text,0..1,Free-text field documenting how source/author background was determined. ,Wikidata,"""Finnish Americans bio (per ranaehanson.com/ancestral-writing-and-response)"""
+Contributor,Person,dc:contributor,dc:contributor → _:b (foaf:Person) → foaf:name,dc,Literal,Text,0..n,"Normalize to 'First Last' format. Contributor could be translator, illustrator, or editor",—,"""Anthony Doyle"" "
+Contributor VIAF URI,Person,schema:sameAs,_:b (foaf:Person) → schema:sameAs,schema,URI,,0..n,URI linking to the original title record in VIAF,See contributor external linking strategy,https://viaf.org/en/viaf/761150323684309971918
+Contributor Wikidata URI,Person,schema:sameAs,_:b (foaf:Person) → schema:sameAs,schema,URI,,0..n,URI linking to the original title record in Wikidata,See contributor external linking strategy,https://www.wikidata.org/wiki/Q2007964
+Language,Subject,schema:inLanguage,,schema,Literal,,1..n,"Only the following languages were represented as 3 letter codes from r12a: Lipan Apache (apl), Mbyá Guaraní (gun), Jalapa de Díaz Mazatec (maj), Chiripá, Ava guaraní (nhd), Skwxwu7mesh (squ), Soyaltepec Mazatec (vmp), and Zapotec (zap)",Wikidata,zap
+Publisher,Organization,schema:publisher,schema:publisher → _:b (schema:Organization) → schema:name,schema,Literal,,1..n,—,—,"""FTD Educacao"""
+Publisher VIAF URI,Organization,schema:sameAs,_:b (schema:Organization) → schema:sameAs,schema,URI,,1..n,URI linking to the original title record in VIAF,VIAF,https://viaf.org/en/viaf/124502071
+Publisher Wikidata URI,Organization,schema:sameAs,_:b (schema:Organization) → schema:sameAs,schema,URI,,1..n,URI linking to the original title record in Wikidata,Wikidata,https://www.wikidata.org/wiki/Q7895804
+Published Year,Concept,schema:datePublished,,schema,Literal,xsd:gYear,1..n,—,—,"""2005"""
+Xwi7xwa Classification System,Subject,bf:subject,,bf,Literal,Text,1..n,—,—,"""Worldview; Knowledge Keeping; Literature"""
+Xwi7xwa Subject Heading,Subject,dc:subject,,dc,Literal,,1..n,—,—,"""CA-CG; T; F-K; M; PW"""
+ISBN-13 ,Item,bf:identifiedBy,bf:identifiedBy → _:b (bf:Isbn) → rdf:value,bf,Literal,,1,—,—,"""9789998966192"" or manual edit in turtle for ISBN-10 ""9686951067"""
+,,,,,,,,,,
