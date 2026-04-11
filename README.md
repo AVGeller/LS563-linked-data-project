@@ -200,7 +200,7 @@ The following RDF/Turtle triples illustrate the structure and linking strategy u
 
 ## Known Limitations and Future Iterations
 
-1. Author biographical sources can be improved upon through direct engagement with authors where possible; source URLs will be added and refined in future versions.
+1. Author biographical sources can be improved upon through direct engagement with authors where possible.
 2. Description sources can be improved upon in future iterations, particularly where richer or community-authored descriptions become available.
 3. Some author background information may require verification or correction by community members with closer knowledge of the relevant Nations and peoples.
 4. This dataset is intended as a foundation for community contribution and crowd-sourcing. Contributions adding new titles, authors, or correcting existing records are welcome.
@@ -213,7 +213,7 @@ This dataset aspires to align with the CARE Principles for Indigenous Data Gover
 **What this dataset has done to honor the CARE Principles:**
 
 - Grounded identity descriptors in authors' own self-identification, using author-maintained websites and community sources as the first preference in the source conflict policy
-- Used literal strings over imprecise URIs where no accurate Wikidata match existed, to preserve the specificity of an author's stated indigeneity
+- Used literals over imprecise URIs where no accurate Wikidata match existed, to preserve the specificity of an author's stated indigeneity
 - Documented decision-making inline through source background notes, explaining URI selection and known limitations transparently
 - Applied the X̱wi7x̱wa Library Classification System in place of Eurocentric frameworks, centering Indigenous knowledge organization
 - Included an open correction pathway so that self-identification takes priority in any disputed record
