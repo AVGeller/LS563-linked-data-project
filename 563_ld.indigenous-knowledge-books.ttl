@@ -19,7 +19,6 @@
         dc:subject            "History - North America; Arts; Literature; Worldview; Knowledge Keeping; Elders"@en;
         schema:author         [ rdf:type            foaf:Person;
                                 schema:description  "Member of Standing Rock Sioux (per ebsco.com/research-starters/biography/vine-deloria-jr)"@en , "Standing Rock Sioux Tribe"@en;
-                                schema:sameAs       wd:Q17280792;
                                 foaf:name           "Deloria, Jr., Vine"
                               ];
         schema:datePublished  "2003"^^xsd:gYear;
@@ -114,7 +113,6 @@
         dc:subject            "Knowledge Keeping; Environment; Science; Worldview"@en;
         schema:author         [ rdf:type            foaf:Person;
                                 schema:description  "Enrolled citizen of the Citizen Potawatomi Nation (per robinwallkimmerer.com)"@en , "Citizen Potawatomi Nation"@en;
-                                schema:sameAs       wd:Q5122575;
                                 foaf:name           "Wall Kimmerer, Robin "
                               ];
         schema:datePublished  "2015"^^xsd:gYear;
@@ -200,7 +198,6 @@
         dc:subject            "History - North America; Health"@en;
         schema:author         [ rdf:type            foaf:Person;
                                 schema:description  "Enrolled citizen of Turtle Mountain Band of Chippewa (maternal) (per elenabrower.com/episode-217-chelsey-luger)"@en , "Turtle Mountain Band of Chippewa Indians"@en;
-                                schema:sameAs       wd:Q7856433;
                                 foaf:name           "Luger, Chelsey"
                               ];
         schema:datePublished  "2022"^^xsd:gYear;
@@ -331,7 +328,6 @@
         dc:subject            "Knowledge Keeping; Environment; History - North America"@en;
         schema:author         [ rdf:type            foaf:Person;
                                 schema:description  "Cherokee Nation of Oklahoma citizen (per inhabitingtheanthropocene.com)"@en , "Cherokee Nation"@en;
-                                schema:sameAs       wd:Q14708404;
                                 foaf:name           "Burkhart, Brian"
                               ];
         schema:datePublished  "2019"^^xsd:gYear;
@@ -457,7 +453,6 @@
         dc:subject            "History - Canada; Worldview; Development, Law, Governance; Rights & Title; Women"@en;
         schema:author         [ rdf:type            foaf:Person;
                                 schema:description  "Cherokee Nation (paternal) (per plainshumanities.unl.edu/encyclopedia/doc/egp.na.062.html)"@en , "Cherokee Nation"@en;
-                                schema:sameAs       wd:Q14708404;
                                 foaf:name           "Mankiller, Wilma"
                               ];
         schema:datePublished  "1993"^^xsd:gYear;
@@ -687,7 +682,6 @@
         dc:subject            "Knowledge Keeping; Worldview; Arts, Literature"@en;
         schema:author         [ rdf:type            foaf:Person;
                                 schema:description  "Born in the Fort Mojave Indian Village in Needles, Ca. She is Mojave community.poetryfoundation.org/poets/natalie-diaz. Per source, \"Mojave Indians are Pipa Aha Macav — “The People By The River.” Mojave culture traces the earthly origins of its people to Spirit Mountain, the highest peak in the Newberry Mountains, located northwest of the present reservation inside the Lake Mead National Recreation Area\". (fortmojaveindiantribe.com/about-us)"@en , "Pipa Aha Macav"@en;
-                                schema:sameAs       wd:Q57061684;
                                 foaf:name           "Diaz, Natalie"
                               ];
         schema:datePublished  "2012"^^xsd:gYear;
@@ -779,7 +773,6 @@
         dc:subject            "Environment; Inuit women; History - Canada"@en;
         schema:author         [ rdf:type            foaf:Person;
                                 schema:description  "Sheila Watt-Cloutier lived a traditional Inuit life until the age of 10 (per uwinnipeg.ca/awards-distinctions/honorary-doctorate/cloutier.html)"@en , "Inuit"@en;
-                                schema:sameAs       wd:Q16157735;
                                 foaf:name           "Watt-Cloutier, Sheila "
                               ];
         schema:datePublished  "2018"^^xsd:gYear;
@@ -822,7 +815,6 @@
         dc:subject            "History - Canada; Worldview"@en;
         schema:author         [ rdf:type            foaf:Person;
                                 schema:description  "Northern Cheyenne Tribe in Montana per  ipl.org/div/natam/bin/browse.pl/A94"@en , "Northern Cheyenne Tribe in Montana"@en;
-                                schema:sameAs       wd:Q2006701;
                                 foaf:name           "Storm, Hyemeyohsts"
                               ];
         schema:datePublished  "1972"^^xsd:gYear;
@@ -843,7 +835,7 @@
                               ];
         dc:subject            "History - North America; Arts; Literature; Worldview; Knowledge Keeping; Women; Elders"@en;
         schema:author         [ rdf:type            foaf:Person;
-                                schema:description  "Sicangu Lakota (per alchetron.com/Mary-Brave-Bird)"@en , "Sicangu Lakota"@en;
+                                schema:description  "Sicangu Lakota (per Birchbark Books & Native Arts book description: Lakota Woman by Mary Crow Dog. And Britannica. Mary Crow Dog. Encyclopedia Britannica)"@en , "Sicangu Lakota"@en;
                                 schema:sameAs       wd:Q992401;
                                 foaf:name           "Brave Bird, Mary"
                               ];
@@ -981,7 +973,6 @@
         dc:subject            "Residential School; History - North America"@en;
         schema:author         [ rdf:type            foaf:Person;
                                 schema:description  "Enrolled citizen of the Red Cliff Band of Wisconsin Ojibwe tribe per midwestclimatecollaborative.wustl.edu/people/mary-annette-pember"@en , "Red Cliff Band of Wisconsin Ojibwe"@en;
-                                schema:sameAs       wd:Q7303906;
                                 foaf:name           "Pember, Mary Annette "
                               ];
         schema:datePublished  "2025"^^xsd:gYear;
@@ -1045,7 +1036,7 @@
         dc:subject            "Arts; Literature; Worldview; Knowledge Keeping; Women"@en;
         schema:author         [ rdf:type            foaf:Person;
                                 schema:description  "Maraguá (maternal) (per museudapessoa.org/historia-de-vida/o-sater-escritor)"@en , "Maraguás"@en;
-                                schema:sameAs       wd:Q135989558;
+                                schema:sameAs       wd:Q116340859;
                                 foaf:name           "Yamã, Yaguarê"
                               ];
         schema:datePublished  "2007"^^xsd:gYear;
