@@ -29,14 +29,13 @@
 - [A Note on AI Assistance](#a-note-on-ai-assistance)
 
 ---
-
-# Indigenous Knowledge Books: Linked Data Dataset
+# Indigenous Knowledge Books — Linked Data Dataset
 
 ## Dataset Description
 
 This dataset contains 50 linked data records of books focused on Indigenous Knowledge, inspired by the Kaggle dataset by ziya07 (2025), Indigenous knowledge systems. It was created to make works by predominantly Indigenous authors more accessible through culturally relevant metadata. The dataset also includes a sample of five books by non-Indigenous authors whose work meaningfully engages with Indigenous perspectives, recognizing the role of cross-cultural scholarship.
 
-The dataset draws on the [X̱wi7x̱wa Library Classification System](https://xwi7xwa.library.ubc.ca/x%CC%B1wi7x%CC%B1wa/) (Indigenous Knowledge Organization, University of British Columbia)), using Indigenous-centered subject headings and classification codes in place of Eurocentric frameworks. The dataset distinguishes Indigenous authors' backgrounds from the backgrounds of non-Indigenous authors. While this information needs refinement, it represents the dataset owner's best effort for a first Linked Data course project.
+The dataset draws on the X̱wi7x̱wa Library Classification System (Indigenous Knowledge Organization, University of British Columbia), using Indigenous-centered subject headings and classification codes in place of Eurocentric frameworks. The dataset distinguishes Indigenous authors' backgrounds from the backgrounds of non-Indigenous authors. While this information may need refinement, it represents the dataset owner's best effort for a first Linked Data course project.
 
 The intent is that this dataset serves as one contribution to a broader, ongoing conversation around intellectual property rights and provenance for Traditional Knowledge (TK) through linked data ontologies. Other projects and initiatives exist in this space; this adds one more entry point: open to iteration and community contribution, including additional authors, contributors, titles, and (where available) author-identified background information.
 
@@ -58,7 +57,7 @@ The intent is that this dataset serves as one contribution to a broader, ongoing
 
 ### Positionality and Intent
 
-This dataset was built by a third-generation descendant of great-grandparents who emigrated from Western and Eastern Europe in the late 1800s and early 1900s who were forced to assimilate upon arrival in New York and New England, and who over generations benefited from housing security and access to higher education that the assimilation made possible. Knowledge of those ancestors stops at arrival, nothing is known beyond that.
+This dataset was built by a fourth-generation descendant of great-grandparents who emigrated from Western and Eastern Europe in the late 1800s and early 1900s who were forced to assimilate upon arrival in New York and New England, and who over generations benefited from housing security and access to higher education that the assimilation made possible. Knowledge of those ancestors stops at arrival, nothing is known beyond that.
 
 Not knowing back seven generations is a gap that sits with this researcher. A lot is quietly lost through assimilation and the pull toward belonging to a dominant society: roots, foundations, the motivations that have shaped how communities and institutions behave today. Archives have the capacity to trace some of that back: migration patterns, ancestral experience, and the longer threads that connect past decisions to present realities. That is part of why archiving resonates personally here, and why the work of description and access feels like it carries weight beyond the technical.
 
@@ -66,7 +65,7 @@ This project does not claim to represent Indigenous perspectives. What it aims t
 
 ### Ethical Stance and Data Sovereignty
 
-This project seeks to align, where applicable, with Indigenous data governance approaches including the CARE Principles for Indigenous Data Governance (Collective Benefit, Authority to Control, Responsibility, Ethics). Nation-specific protocols and community preferences should guide any reuse: especially for culturally sensitive information.
+This project seeks to align, where applicable, with Indigenous data governance approaches including the CARE Principles for Indigenous Data Governance (Collective Benefit, Authority to Control, Responsibility, Ethics). Nation-specific protocols and community preferences should guide any reuse especially for culturally sensitive information.
 
 Where TK (Traditional Knowledge) Labels or community-defined permissions exist for a work or author, those should be respected and, where feasible, surfaced in the metadata. Some knowledge is not meant to be linked or made open; that boundary matters and should be honored.
 
@@ -74,30 +73,38 @@ Where TK (Traditional Knowledge) Labels or community-defined permissions exist f
 
 When sources conflicted on an author's name, affiliation, or background, the following preference order was applied:
 
-1. Creator self-identification: author-maintained websites, published interviews, or stated bios
-2. Nation, community, or Indigenous organization sources: tribal websites, official Nation directories, and Indigenous institutional records
-3. Institutional records with clear provenance: university faculty profiles, publisher pages, and library catalogs
-4. Secondary sources: encyclopedias, journalism, speaker agencies, and general reference works
+1. Creator self-identification - author-maintained websites, published interviews, or stated bios
+2. Nation, community, or Indigenous organization sources — tribal websites, official Nation directories, and Indigenous institutional records
+3. Institutional records with clear provenance — university faculty profiles, publisher pages, and library catalogs
+4. Secondary sources — encyclopedias, journalism, speaker agencies, and general reference works
 
-For reconciling community, nation, and group affiliations, Wikidata entity types were used as a controlled vocabulary. The reconciliation interface offered a range of candidate types: ethnic group (Q41710), First Nation band (Q2882257), federally recognized Native American tribe in the United States (Q7840353), nation (Q6266), ethnic minority group (Q2531956), indigenous people (Q103817), indigenous peoples of North America (Q15571255), ethnic community (Q25380035), ethnolinguistic group (Q4533081), political territorial entity (Q1048835), polity (Q1063239), and broader fallback types like state (Q7275) and entity (Q35120).
+For reconciling community, Nation, and group affiliations, Wikidata entity types were used as a controlled vocabulary. The reconciliation interface offered a range of category types: ethnic group (Q41710), First Nation band (Q2882257), federally recognized Native American tribe in the United States (Q7840353), nation (Q6266), ethnic minority group (Q2531956), indigenous people (Q103817), indigenous peoples of North America (Q15571255), ethnic community (Q25380035), ethnolinguistic group (Q4533081), political territorial entity (Q1048835), polity (Q1063239), and broader fallback types like state (Q7275) and entity (Q35120).
 
 Not all cells were tested against each Wikidata category as the priority was both time and the need to ensure affiliations resolved to a Wikidata entity rather than remaining as literals. In practice, these were applied: First Nation band (Q2882257) and ethnic group (Q41710), the latter used for both Indigenous and non-Indigenous authors. One labeling issue remains: the "Indigenous Group" Source Field in OpenRefine needs to be updated to reflect the Wikidata label it was reconciled to, federally recognized Native American tribe in the United States (Q7840353).
 
-The available Wikidata categories are worth discussing, particularly regarding whether they reflect how Indigenous Nations would choose to describe themselves. Of course, no nation in the globe should be treated as a monolith, and consensus among various Nations on preferred terminology remains an open question and a meaningful one for conversations around data sovereignty. Names and affiliations recorded in this dataset are time-bound assertions, not permanent facts. Nations, communities, and individuals may update how they identify over time, and records here should be treated accordingly.
+The available Wikidata categories are worth discussing, particularly regarding whether they reflect how Indigenous Nations would choose to describe themselves. Of course, no nation should be treated as a monolith, and consensus on preferred terminology remains an open question and a meaningful one for conversations around data sovereignty. Names and affiliations recorded in this dataset are time-bound assertions, not permanent facts. Nations, communities, and individuals may update how they identify over time, and records here should be treated accordingly.
 
 ### Limits of Claims
 
-This dataset attempts not to infer tribal affiliation beyond what is documented in publicly available, author-proximate sources. Imposed labels from ontologies are not treated as definitive, and sensitive details about living people are minimized where possible. Given the complexity of this being a first linked data project, some records may fall short of this ideal: particularly where biographical sources were limited or where Wikidata categories did not map cleanly to an author's stated identity. Corrections from those with closer knowledge of the relevant Nations and peoples are welcome and taken seriously.
+This dataset does not infer tribal affiliation. Imposed labels from ontologies are not treated as definitive. Sensitive details about living people are minimized where possible, and the dataset does not attempt to assert more than what is documented in publicly available, author-proximate sources.
+
+The dataset cannot guarantee accuracy for all records; particularly where biographical sources were limited or where Wikidata divided up background in various categories as mentioned above.
 
 ### Potential Harms and Mitigations
 
-Known risks include misidentification of author background, inadvertent reinforcement of colonial categories, and exposure of personal information. To mitigate these risks, the dataset prioritizes literals over imprecise URIs, uses source background notes to document uncertainty and decision-making, minimizes disclosure of sensitive personal details, and maintains an open correction pathway. No mitigation is perfect, and this dataset is understood as a living document subject to revision.
+Known risks include misidentification of author background, inadvertent reinforcement of colonial categories, and exposure of personal information. Mitigations in place include: use of literal strings and keeping the literals intact over imprecise URIs, source background notes to document uncertainty, minimal disclosure for sensitive details, and open correction pathways (see below).
 
 ### Feedback, Corrections, and Accountability
-Corrections, contested claims, and community feedback are welcome. Self-identification takes priority in any disputed record, and when a change is made based on feedback, the update will be documented transparently: noting what changed, why, and where the updated information came from. To request a correction or flag a concern, open an issue in this repository or contact the dataset author directly. All feedback will be logged and acted on in future versions.
+
+Corrections, contested claims, and community feedback are welcome and taken seriously. Self-identification takes priority in any disputed record. When a change is made based on feedback, the update will be documented transparently: noting what changed, why, and where the information came from.
+
+To request a correction or flag a concern, open an issue in this repository or contact the dataset author directly. All feedback will be logged and acted on in future versions.
 
 ### Benefit and Reciprocity
-The intended benefit of this project is improved discoverability for community research, easier correction pathways, and support for community-defined naming over imposed terminology. Contributions, whether corrections, additions, or verifications, will be acknowledged in future versions. This project does not extract value from Indigenous knowledge for academic gain alone. The goal is that the dataset remains freely available and genuinely useful to the Nations and communities whose authors and works it describes.
+
+The intended benefit of this project is improved discoverability for community research, easier correction pathways, and support for community-defined naming over imposed terminology. Contributions, whether corrections, additions, or verifications, will be acknowledged in future versions of the dataset.
+
+This project does not extract value from Indigenous knowledge for academic gain alone. The goal is that the dataset remains freely available and genuinely useful to the Nations and communities whose authors and works it describes.
 
 ---
 
@@ -126,7 +133,7 @@ The dataset uses the following ontologies, vocabularies, and namespaces:
 
 The dataset connects records to external authority sources to improve interoperability and support provenance. The linking strategy works as follows:
 
-**Author identity and background:** Indigenous author backgrounds are anchored in each author's self-identified Nation, community, or heritage as documented in publicly available biographical sources. Wikidata URIs (wd:) are used where an accurate match was available; a literal is used where no suitable URI existed, to preserve the author's specific self-identification rather than force an imprecise match.
+**Author identity and background:** Indigenous author backgrounds are anchored in each author's self-identified Nation, community, or heritage as documented in publicly available biographical sources. Wikidata URIs (wd:) are used where an accurate match was available; a literal string is used where no suitable URI existed, to preserve the author's specific self-identification rather than force an imprecise match.
 
 Non-Indigenous author backgrounds reflect ethnic or cultural heritage as described in publicly available biographical sources. Where no Indigenous background was mentioned, the author was treated as non-Indigenous.
 
@@ -213,7 +220,7 @@ This dataset aspires to align with the CARE Principles for Indigenous Data Gover
 **What this dataset has done to honor the CARE Principles:**
 
 - Grounded identity descriptors in authors' own self-identification, using author-maintained websites and community sources as the first preference in the source conflict policy
-- Used literals over imprecise URIs where no accurate Wikidata match existed, to preserve the specificity of an author's stated indigeneity
+- Used literal strings over imprecise URIs where no accurate Wikidata match existed, to preserve the specificity of an author's stated indigeneity
 - Documented decision-making inline through source background notes, explaining URI selection and known limitations transparently
 - Applied the X̱wi7x̱wa Library Classification System in place of Eurocentric frameworks, centering Indigenous knowledge organization
 - Included an open correction pathway so that self-identification takes priority in any disputed record
@@ -246,15 +253,15 @@ The following projects, programs, organizations, initiatives, and best practices
 
 ### Principles and Frameworks
 
-**Global Indigenous Data Alliance (GIDA): CARE Principles for Indigenous Data Governance**
+**Global Indigenous Data Alliance (GIDA) — CARE Principles for Indigenous Data Governance**
 A framework centering Indigenous rights and interests in data: Collective Benefit, Authority to Control, Responsibility, Ethics. Often positioned as a complement and counterbalance to FAIR data principles.
 [https://www.gida-global.org/care](https://www.gida-global.org/care)
 
-**Local Contexts: Traditional Knowledge (TK) Labels**
+**Local Contexts — Traditional Knowledge (TK) Labels**
 A practical tool for communities to add cultural protocols to digitized materials, signaling how knowledge should be accessed, used, and attributed.
 [https://localcontexts.org/labels/traditional-knowledge-labels/](https://localcontexts.org/labels/traditional-knowledge-labels/)
 
-**Oral History Association (OHA): Principles and Best Practices**
+**Oral History Association (OHA) — Principles and Best Practices**
 Ethical and methodological standards for oral history projects, emphasizing transparency, informed consent, narrator well-being, shared authority, and responsible access and use. Relevant where this dataset intersects with interview or oral-history-adjacent sources.
 [https://oralhistory.org/principles-and-best-practices-revised-2018/](https://oralhistory.org/principles-and-best-practices-revised-2018/)
 
@@ -271,8 +278,8 @@ Ethical and methodological standards for oral history projects, emphasizing tran
 
 ## A Note on AI Assistance
 
-This project was developed as part of LS563 Linked Data at the University of Alabama, MLIS program. Feedback and coaching from the course professor, along with webinars and Indigenous policy resources, shaped the direction and decisions throughout. AI helped clean up the written content to make it flow in a user-friendly format and feel less overwhelming for potential dataset users.
+This project was developed as part of LS 563 Linked Data at the University of Alabama. Feedback and coaching from the course professor, along with webinars and Indigenous policy resources, shaped the direction and decisions throughout. AI helped clean up the written content to make it flow in a user-friendly format and feel less overwhelming for potential dataset users.
 
-Claude AI (Anthropic) was used as an additional technical guide at points where the Turtle file was not functioning as expected: particularly when added columns introduced errors that needed to be worked through. Claude helped troubleshoot specific problems including the RDF transformation, the linked data model diagram, and getting the Turtle file to render correctly on GitHub.
+Claude AI (Anthropic) was used as an additional technical guide at points where the Turtle file was not functioning as expected particularly when added columns introduced errors that needed to be worked through. Claude helped troubleshoot specific problems including the RDF transformation, the linked data model diagram, and getting the Turtle file to render correctly on GitHub.
 
-The ideas, research, and conceptual direction are the author's own. The sources consulted, the frameworks chosen, and the thinking behind the metadata decisions all reflect the author's work and learning. Where Claude assisted, it was in working through technical problems and shaping the formal written expression of those ideas: not in generating the intellectual content itself.
+The ideas, research, and conceptual direction are the author's own. The sources consulted, the frameworks chosen, and the thinking behind the metadata decisions all reflect the author's work and learning. Where Claude assisted, it was in working through technical problems and shaping the formal written expression of those ideas, not in generating the intellectual content itself.
